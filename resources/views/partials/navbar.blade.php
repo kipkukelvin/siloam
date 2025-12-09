@@ -17,7 +17,10 @@
     <!-- Left side: Logo + Nav -->
     <div class="d-flex align-items-center fw-light fs-4">
       <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
-        <img src="{{ asset('assets/images/33.png') }}" class="img-fluid me-2" alt="Logo" style="height: 50px;">
+        <img src="{{ asset('assets/images/33.png') }}" 
+     class="img-fluid me-2" 
+     alt="Logo" 
+     style="height: 70px; object-fit: contain;">
         <!-- <span class="text-uppercase fs-6 text-primary py-1 pt-sm-0 fst-italic">
           Siloam medical, technical<br>and commercial training college
         </span> -->
