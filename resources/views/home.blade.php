@@ -5,11 +5,12 @@
   <div class="container-fluid mt-4 img-fluid fixed w-100 h-100 pt-2">
     @include('welcome')
 </div>
-<div class="text-monospace pt-4 fw-bold fs-5">
-     <h1 class=" text-center fw-bold text-primary mb-2">
+<div class="text-monospace pt-3 fw-bold fs-4">
+     <h1 class=" text-center text-primary mb-2">
             About Us
         </h1>
-        <h4 class="text-secondary text-center fst-italic mb-4">
+        <span style="display:block; width:60px; height:2px; background:#0199ff;; margin:5px auto 0;"></span>
+        <h4 class="text-secondary text-center fst-italic mb-4 mt-4">
             Shaping Minds, Transforming Lives
         </h4>
         <p class="lead text-muted mx-auto" style="max-width: 750px;">
