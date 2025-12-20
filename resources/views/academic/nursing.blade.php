@@ -10,6 +10,7 @@
     </div>
 
 </div>
+@section('content')
 <div class="container card-body my-4">
     <div class="row">
         <div class="col-12">
@@ -164,3 +165,4 @@
         </div>
     </div>
 </div>
+@endsection

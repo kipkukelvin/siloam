@@ -17,7 +17,7 @@
     <!-- Left side: Logo + Nav -->
     <div class="d-flex align-items-center fw-light fs-4">
       <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
-        <img src="{{ asset('assets/images/logweb.png') }}" 
+        <img src="{{ asset('assets/images/preview.png') }}" 
      class="img-fluid me-2" 
      alt="Logo" 
      style="height: 50px; object-fit: contain;">
@@ -40,7 +40,7 @@
                 <div class="col-md-3">
                   <h6 class="fw-bold text-primary">Programs</h6>
                   <ul class="list-unstyled">
-                    <li><a class="dropdown-item py-1" href="{{ route('academic.programs') }}">Courses</a></li>
+                    <li><a class="dropdown-item py-1" href="{{ route('academic.programs') }}">All Courses</a></li>
                   </ul>
                 </div>
 
@@ -50,7 +50,7 @@
                   <ul class="list-unstyled">
                     <li><a class="dropdown-item py-1" href="#">Health Sciences</a></li>
                     <li><a class="dropdown-item py-1" href="#">ICT & Computer Studies</a></li>
-                    <li><a class="dropdown-item py-1" href="#">Technical</a></li>
+                    <li><a class="dropdown-item py-1" href="#">Technical Courses</a></li>
                   </ul>
                 </div> 
               <div class="col-md-3">

@@ -10,6 +10,7 @@
     </div>
 
 </div>
+@section('content')
 <div class="container card-body my-4">
   <div class="row">
     <div class="col-12">
@@ -72,25 +73,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Column 3: Certificate -->
-   <!-- <div class="col-md-4">
-      <div class="card border-info h-100 card-hover">
-        <div class="card-header bg-info text-white">
-          <h5 class="mb-0"><i class="fa fa-certificate me-2"></i>Certificate</h5>
-        </div>
-        <div class="card-body">
-           <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
-          <ul class="list-unstyled fs-6 mb-0">
-            <li>KCSE Mean Grade D– or equivalent</li>
-            <li>English or Kiswahili D– and above</li>
-            <li>Biology or Physical Science D– and above</li>
-            <li>Any other relevant subject D– and above</li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
-
   </div>
 </div>
 <!-- Choose Us -->
@@ -155,3 +137,4 @@
     </div>
   </div>
 </div>
+@endsection

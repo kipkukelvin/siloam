@@ -1,65 +1,62 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-<div class="container-fluid px-0 bg-info text-black p-4 pt-1 rounded">
-    
-    <h3 class="text-dark text-center my-3">
+<div class="container-fluid px-0 bg-info  p-4 pt-1 rounded">
+
+    <h3 class="text-center my-3">
         Academics | Programmes
     </h3>
-
-    <div class="row justify-content-center class-name mx-0 g-4">
-
-        <!-- Course 1 -->
-        <div class="col-md-5 col-10 mb-3">
-            <a href="{{ route('academic.pptt') }}" class="text-decoration-none text-black">
-                <div class="course-box h-100">
-                    <h5 class="mb-2">Perioperative Theatre Technology</h5>
-                    <p class="text-muted mb-0">
+    <div class="container overflow-hidden">
+        <div class="row gy-4 justify-content-center">
+            <div class="col-5">
+                <div class="p-3 border bg-light">
+                    <h5 class=" text-capitalize text-center">perioperative theatre technology</h5>
+                    <p class=" mb-0 ms-2">
                         Covers surgical procedures, theatre management, sterilization,
                         and assisting surgeons in the operating room.
                     </p>
                 </div>
-            </a>
-        </div>
-
-        <!-- Course 2 -->
-        <div class="col-md-5 col-10 mb-3">
-            <div class="course-box h-100">
-                <h5 class="fw-bold mb-2">Orthopedics & Trauma Medicine</h5>
-                <p class="text-muted mb-0">
-                    Focuses on musculoskeletal injuries, trauma care,
-                    orthopedic conditions, and rehabilitation techniques.
-                </p>
+            </div>
+            <div class="col-5">
+                <div class="p-3 border bg-light">
+                    <h5 class=" text-capitalize text-center">Orthopedics & Trauma Medicine</h5>
+                    <p class=" mb-0">
+                        Focuses on musculoskeletal injuries, trauma care,
+                        orthopedic conditions, and rehabilitation techniques.
+                    </p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="p-3 border bg-light">
+                    <h5 class=" text-capitalize text-center">Certified Nurse Assistant</h5>
+                    <p class=" mb-0">
+                        Trains students in patient care skills, nursing procedures,
+                        and healthcare support techniques.
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="p-3 border bg-light">
+                    <h5 class=" text-capitalize text-center">Nursing</h5>
+                    <p class=" mb-0">
+                        Students will develop the professional judgment and technical expertise needed for diverse
+                        healthcare environments.
+                    </p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="p-3 border bg-light">
+                    <h5 class=" text-capitalize text-center">Computer packages</h5>
+                    <p class=" mb-0">
+                        Learn essential computer applications including MS Office,
+                        typing, data entry, and basic ICT skills.
+                    </p>
+                </div>
             </div>
         </div>
-
-        <!-- Course 3 -->
-        <div class="col-md-5 col-10 mb-3">
-            <div class="course-box h-100">
-                <h5 class="fw-bold mb-2">Certified Nurse Assistant</h5>
-                <p class="text-muted mb-0">
-                    Trains students in patient care skills, nursing procedures,
-                    and healthcare support techniques.
-                </p>
-            </div>
-        </div>
-
-        <!-- Course 4 -->
-        <div class="col-md-5 col-10 mb-3">
-            <div class="course-box h-100">
-                <h5 class="fw-bold mb-2">Computer Packages</h5>
-                <p class="text-muted mb-0">
-                    Learn essential computer applications including MS Office,
-                    typing, data entry, and basic ICT skills.
-                </p>
-            </div>
-        </div>
-
     </div>
-
     <div class="text-center mt-3">
-        <a href="{{ route('academic.programs') }}" class="btn btn-outline-primary btn-sm mt-3 px-5  py-1 w-auto d-inline-block rounded-pill fs-4">
+        <a href="{{ route('academic.programs') }}"
+            class="btn btn-outline-primary btn-sm mt-3 px-5  py-1 w-auto d-inline-block rounded-pill fs-4">
             Read More
         </a>
     </div>
-
 </div>
