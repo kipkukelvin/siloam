@@ -30,7 +30,7 @@
   <!-- Overlay -->
   <div class="hero-overlay text-center">
       <h2 class="hero-title">
-          Welcome to Siloam Medical & Technical College
+          Welcome to Siloam Hospital College of Health Sciences
       </h2>
 
       <div class="hero-buttons mt-3">

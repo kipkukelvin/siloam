@@ -45,7 +45,7 @@
 
       <p><strong>V. Communication and Mails</strong></p>
       <p>
-        The Dean of Students’ office receives incoming mail from the university
+        The Dean of Students’ office receives incoming mail from the college
         registry and distributes it to students accordingly.
       </p>
 

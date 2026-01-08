@@ -8,7 +8,7 @@
             Shaping Minds, Transforming Lives.
         </h4>
         <p class="lead text-muted mx-auto" style="max-width: 750px;">
-            At Siloam Medical & Technical College, we focus on empowering students 
+            At Siloam Hospital College of Health Sciences, we focus on empowering students 
             through practical learning, industry-aligned programs, and a supportive academic environment. 
             Our goal is to develop skilled professionals ready to thrive in today’s evolving world.
         </p>

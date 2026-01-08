@@ -40,7 +40,7 @@
                 <div class="col-md-3">
                   <h6 class="fw-bold text-primary">Programs</h6>
                   <ul class="list-unstyled">
-                    <li><a class="dropdown-item py-1" href="{{ route('academic.programs') }}">All Courses</a></li>
+                    <li><a class="dropdown-item py-1" href="{{ route('academic.programs') }}">Our Courses</a></li>
                   </ul>
                 </div>
 

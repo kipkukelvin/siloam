@@ -9,9 +9,9 @@
 <div class="class-name text-start mt-3">
     <h1 class="class-name mb-2 text-capitalize text-center">About Us</h1>
     <span style="display:block; width:60px; height:2px; background:#0dcaf0; margin:5px auto 0;"></span>
-    <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to siloam medical & tehnical college.</h2>
+    <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to Siloam Hospital College of Health Sciences.</h2>
     <span style="display:block; width:200px; height:2px; background:#0dcaf0; margin:5px auto 0;"></span>
-    <h3 class="mb-4 mt-4 ms-4 text-start fs-5 text-muted">Siloam Medical & Technical College operates with the explicit
+    <h3 class="mb-4 mt-4 ms-4 text-start fs-5 text-muted">Siloam Hospital College of Health Sciences operates with the explicit
         mandate to prepare world-class healthcare professionals who will transform healthcare systems, both locally and
         globally. We fulfill this mandate by dedicating our resources to delivering innovative education and training
         programs, cultivating compassionate leaders ready to drive positive community health outcomes.</h3>

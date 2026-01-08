@@ -3,9 +3,9 @@
     <div class="row">
       <!-- College Info -->
       <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase text-start mb-3 me-2 ms-5">Siloam MTC</h5>
+        <h5 class="text-uppercase text-start mb-3 me-2 ms-5">Siloam HCHS</h5>
         <p class="text-body text-start text-success fs-6">
-          The objective of Siloam Medical & Technical College is to shape minds and change lives by providing quality education, fostering personal growth, and preparing students for success in both their careers and communities.
+          The objective of Siloam Hospital College of Health Sciences is to shape minds and change lives by providing quality education, fostering personal growth, and preparing students for success in both their careers and communities.
         </p>
       </div>
 
@@ -40,7 +40,7 @@
     </div>
     <hr class="border-light">
     <div class="text-start text-muted me-2 ms-5 fs-6">
-      <p class="mb-2">&copy; {{ date('Y') }} Siloam Medical & Technical College</p>
+      <p class="mb-2">&copy; {{ date('Y') }} Siloam Hospital College of Health Sciences</p>
     </div>
   </div>
 </footer>

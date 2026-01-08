@@ -152,7 +152,7 @@
             <!-- Card 6 -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/images/rena.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
+                    <img src="{{ asset('assets/images/rena.jpeg') }}" class="rounded-circle mx-auto mt-2 profile-img"
                         alt="Siloam">
                     <div class="card-body text-center">
                         <h4 class="card-title">Renalda Riaga</h4>
@@ -185,7 +185,7 @@
             <!-- Card 7 -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/images/Lovenda.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
+                    <img src="{{ asset('assets/images/fai.jpeg') }}" class="rounded-circle mx-auto mt-2 profile-img"
                         alt="Siloam">
                     <div class="card-body text-center">
                         <h4 class="card-title">Faith Chepkorir</h4>
