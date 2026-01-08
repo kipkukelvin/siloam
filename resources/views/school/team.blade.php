@@ -384,9 +384,19 @@
                                     <h6 class="fw-bold mb-1">Lovenda Cherono</h6>
                                     <p class="small text-muted mb-1">School Nurse</p>
                                     <p class="small mb-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Trainer and Resident clinical officer at Siloam Hospital College of Health Sciences,
+                                        I integrate comprehensive patient care with clinical education and mentorship.
+                                        Guided by the institution’s mission to empower students with innovative healthcare
+                                        education, I am committed to developing expertise, compassion, and leadership among
+                                        trainees, while ensuring excellence and ethical practice in clinical service. I
+                                        deliver structured classroom lectures, facilitate interactive discussions, conduct
+                                        case-based learning sessions and supervise student projects and assignments to
+                                        reinforce knowledge. I contribute to curriculum planning and quality improvement
+                                        initiatives. My practice is grounded in the College’s core values of excellence,
+                                        integrity, compassion, collaboration, innovation and lifelong learning. I am
+                                        dedicated to nurturing competent, ethical and compassionate healthcare professionals
+                                        while advancing the College’s vision of preparing world-class practitioners who
+                                        transform healthcare locally and globally.
                                     </p>
 
                                 </div>
@@ -449,9 +459,19 @@
                                     <h6 class="fw-bold mb-1">Joan Cheptoo</h6>
                                     <p class="small text-muted mb-1">Librarian</p>
                                     <p class="small mb-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        I am a dedicated librarian at Siloam College, committed to supporting
+                                        teaching, learning, and research within the academic community. My role involves
+                                        organizing and managing library resources to ensure easy access to accurate and
+                                        relevant information for students and staff. I assist users in developing research
+                                        and information literacy skills, guiding them in the effective use of library
+                                        materials and online databases. I also work closely with faculty to support
+                                        curriculum needs and encourage a strong reading culture across the college. Through
+                                        user education, reference services, and collection development, I strive to create a
+                                        welcoming and supportive learning environment. As a librarian, I value continuous
+                                        learning and professional growth, and I am passionate about helping students become
+                                        independent, confident information seekers. My goal is to ensure that the Siloam
+                                        College Library remains a vital academic resource that contributes meaningfully to
+                                        student success and institutional excellence.
                                     </p>
 
                                 </div>

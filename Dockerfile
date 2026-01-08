@@ -1,6 +1,9 @@
-FROM php:8.2-fpm
+FROM php:8.2-apache
 
-# Install system dependencies
+# Enable Apache rewrite
+RUN a2enmod rewrite
+
+# System dependencies
 RUN apt-get update && apt-get install -y \
     git \
     unzip \
@@ -9,10 +12,10 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     libzip-dev \
     libpq-dev \
-    zip \
     curl \
     nodejs \
-    npm
+    npm \
+    && rm -rf /var/lib/apt/lists/*
 
 # PHP extensions
 RUN docker-php-ext-install \
@@ -24,31 +27,33 @@ RUN docker-php-ext-install \
     gd \
     zip
 
+# Set Apache document root to Laravel public folder
+ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' \
+    /etc/apache2/sites-available/*.conf \
+    /etc/apache2/apache2.conf
+
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
+# Working directory
 WORKDIR /var/www/html
 
 # Copy project
 COPY . .
 
-# Install dependencies
+# Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
+
+# Build frontend assets
 RUN npm install && npm run build
 
 # Permissions
-RUN chmod -R 775 storage bootstrap/cache
+RUN chown -R www-data:www-data storage bootstrap/cache \
+    && chmod -R 775 storage bootstrap/cache
 
-# Create entrypoint (CRITICAL)
-RUN echo '#!/bin/sh\n\
-set -e\n\
-php artisan key:generate --force || true\n\
-php artisan config:clear || true\n\
-php artisan cache:clear || true\n\
-php artisan config:cache || true\n\
-php artisan migrate --force || true\n\
-php artisan serve --host=0.0.0.0 --port=10000' \
-> /entrypoint.sh && chmod +x /entrypoint.sh
-
+# Expose Render port
 EXPOSE 10000
-ENTRYPOINT ["/entrypoint.sh"]
+
+# Start Apache
+CMD ["apache2-foreground"]
