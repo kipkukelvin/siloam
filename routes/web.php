@@ -31,6 +31,9 @@ Route::get('/academic/programs', [AcademicController::class, 'programs'])->name(
 Route::get('/academic/packages', [AcademicController::class, 'packages'])->name('academic.packages');
 Route::get('/school/dean', [SchoolController::class, 'dean'])->name('school.dean');
 Route::get('/school/team', [HomeController::class, 'team'])->name('school.team');
+Route::get('/admin/payment', [HomeController::class, 'payment'])->name('admin.payment');
+Route::get('/partials/contacts', [SchoolController::class, 'contacts'])->name('partials.contacts');
+Route::get('/school/career', [SchoolController::class, 'career'])->name('school.career');
 // show form
 Route::get('/academic/application', [ApplicationController::class, 'create'])->name('academic.application');
 // handle form submission

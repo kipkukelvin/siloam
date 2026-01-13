@@ -34,6 +34,10 @@ class HomeController extends Controller
     {
         return view('student.login');
     }
+     public function payment()
+    {
+        return view('admin.payment');
+    }
     /**
      * Show the form for creating a new resource.
      */

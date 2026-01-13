@@ -69,3 +69,13 @@ window.addEventListener("scroll", function () {
             document.body.style.paddingTop = navbar.offsetHeight + 'px';
         }
     });
+
+    document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.dropdown-submenu > a').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            this.nextElementSibling.classList.toggle('show');
+        });
+    });
+});

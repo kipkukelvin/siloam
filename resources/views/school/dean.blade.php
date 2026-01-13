@@ -33,8 +33,7 @@
 
       <p><strong>III. Games and Sports</strong></p>
       <p>
-        A variety of games are offered including Soccer, Rugby, Hockey, Baseball,
-        Roll Ball, Karate, Volleyball, and Tennis.
+        A variety of games are offered including Soccer, Volleyball, and Tennis.
       </p>
 
       <p><strong>IV. Differently Abled Students</strong></p>

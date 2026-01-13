@@ -14,13 +14,13 @@
     <div style="margin-top:30px;"></div>
     <header class="d-flex justify-content-between align-items-center text-primary py-3 bg-opacity-50 hover-success">
         <!-- Left side: Logo + Nav -->
-        <div class="d-flex align-items-center fw-light fs-4">
+        <div class="d-flex align-items-center fw-light fs-6">
             <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
                 <img src="{{ asset('assets/images/web.png') }}" class="img-fluid me-2" alt="Logo"
-                    style="height: 50px; object-fit: contain;">
+                    style="height: 55px; object-fit: contain;">
             </a>
 
-            <ul class="nav nav-pills fs-5">
+            <ul class="nav nav-pills fs-6">
 
                 <li class="nav-item text-uppercase"><a href="{{ route('school.admission') }}"
                         class="nav-link">Admission</a></li>
@@ -89,8 +89,19 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item py-1" href="{{ route('about') }}">About US</a></li>
                         <li><a class="dropdown-item py-1" href="{{ route('school.team') }}">Our Team</a></li>
-                        <li><a class="dropdown-item py-1" href="{{ route('school.dean') }}">Student Affairs</a></li>
-                        <li><a class="dropdown-item py-1" href="#">Finance & Accounts</a></li>
+                        <li class="dropdown-item p-0">
+                            <button class="btn btn-link dropdown-item text-start py-1 w-100" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#studentAffairsMenu">
+                                Student Affairs
+                            </button>
+
+                            <ul class="list-unstyled ps-3 collapse" id="studentAffairsMenu">
+                                <li><a class="dropdown-item py-1" href="{{ route('school.dean') }}">Dean of
+                                        Students</a></li>
+                                <li><a class="dropdown-item py-1" href="{{ route('school.career') }}">Career Liason</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item py-1" href="{{ route('partials.contacts') }}">Contact Us</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a href="{{ route('academic.faqs') }}" class="nav-link">FAQs</a></li>

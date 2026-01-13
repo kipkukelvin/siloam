@@ -235,3 +235,15 @@
   border-color: #2c2b2be0;
   color: #d4af37
 }
+.table a {
+    text-decoration: none !important; /* overrides any Bootstrap or browser style */
+    color: inherit; /* optional: keep same color as text */
+}
+
+.table a:hover {
+    text-decoration: none !important; /* ensures hover doesn’t underline */
+    color: #ff0202; /* optional hover color */
+}
+.nav{
+  font-family: PT Serif, sans-serif;
+}
