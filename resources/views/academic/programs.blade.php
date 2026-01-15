@@ -9,7 +9,7 @@
     <div
         class="class-name position-absolute top-50 bg-dark bg-opacity-50 p-3 rounded start-40 ms-5 
               fs-1 fw-bold text-start text-light">
-        Courses offered
+       Our Courses
     </div>
 </div>
 
