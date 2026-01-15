@@ -49,7 +49,7 @@
              <label class="form-label mt-3">Academic Cerificates</label>
             <input type="file" name="academic_certificates" class="form-control" required>
 
-            <a href="{{ route('admin.payment') }}" class="btn btn-success w-100 mt-4" type="submit">Submit Application</a>
+             <button class="btn btn-success w-100 mt-4" type="submit">Submit Application</button>
         </form>
 
     </div>
