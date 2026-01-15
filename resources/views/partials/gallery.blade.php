@@ -14,12 +14,7 @@
         <img src="{{ asset('assets/img/sports.jpg') }}" alt="Student Life 2">
         <div class="caption">Sports</div>
       </div>
-
-      <div class="scroll-item">
-        <img src="{{ asset('assets/img/ST2.jpg') }}" alt="Student Life 3">
-        <div class="caption">Administration</div>
-      </div>
-
+      
       <div class="scroll-item">
         <img src="{{ asset('assets/img/outdoor.jpg') }}" alt="Student Life 4">
         <div class="caption">Outdoor</div>
