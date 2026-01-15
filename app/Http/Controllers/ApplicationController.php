@@ -53,7 +53,7 @@ class ApplicationController extends Controller
             'id_scan' => $idScanPath,
             'academic_certificates' => $certPath,
         ]);
-        $application->load('course'); 
+       /* $application->load('course'); 
          Mail::send('emails.admission', [
             'app' => $application
         ], function ($message) use ($application, $idScanPath, $certPath) {
@@ -71,7 +71,7 @@ class ApplicationController extends Controller
         });
         // Application::create([...]);
 
-        return back()->with('success', 'Application submitted successfully!');
+        return back()->with('success', 'Application submitted successfully!'); */
     }
 
     /**
