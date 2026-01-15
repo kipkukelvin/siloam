@@ -68,10 +68,10 @@ class ApplicationController extends Controller
         ], function ($message) use ($application) {
             $message->to($application->email)
                     ->subject('Application Received');
-        });
+        }); */
         // Application::create([...]);
 
-        return back()->with('success', 'Application submitted successfully!'); */
+        return back()->with('success', 'Application submitted successfully!'); 
     }
 
     /**
