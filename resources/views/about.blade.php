@@ -5,8 +5,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
-<div class="class-name text-start mt-3">
+    @section('content')
+<div class="class-name text-start mt-2">
     <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to Siloam College of Health Sciences.</h2>
     <span style="display:block; width:200px; height:2px; background:#ff0101; margin:5px auto 0;"></span>
     <div class="container my-4">
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-        @section('content')
+    
 
 
             <div class="container my-5 p-0">

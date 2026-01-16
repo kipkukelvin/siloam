@@ -54,6 +54,7 @@ class ApplicationController extends Controller
             'academic_certificates' => $certPath,
         ]);
        $application->load('course'); 
+       try{
          Mail::send('emails.admission', [
             'app' => $application
         ], function ($message) use ($application, $idScanPath, $certPath) {
@@ -70,7 +71,9 @@ class ApplicationController extends Controller
                     ->subject('Application Received');
         });
         // Application::create([...]);
-
+         } catch (\Throwable $e) {
+        Log::error('Mail failed: ' . $e->getMessage());
+    }
         return back()->with('success', 'Application submitted successfully!'); 
     }
 

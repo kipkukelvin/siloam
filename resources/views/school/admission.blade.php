@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <!-- Hero Section -->
+
 <div class="position-relative mb-4">
     <img src="{{ asset('assets/images/adm.jpg') }}"
          class="img-fluid w-100"
@@ -19,7 +20,7 @@
 </div>
 
 </div>
-
+@section('content')
 <!-- Admission Content -->
 <section class="container my-5 text-muted mt-0">
 
@@ -96,3 +97,4 @@
     </div>
 </div>
 
+@endsection

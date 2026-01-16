@@ -1,5 +1,6 @@
 @extends('partials.layouts')
 @section('title', 'Siloam-Team')
+
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative">
     <img src="{{ asset('assets/img/29.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
