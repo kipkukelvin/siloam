@@ -13,7 +13,6 @@ RUN docker-php-ext-install \
 # Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# App directory
 WORKDIR /var/www/html
 
 # Copy project
@@ -26,12 +25,12 @@ RUN npm install && npm run build
 # Permissions
 RUN chmod -R 775 storage bootstrap/cache
 
-# Expose Render port
 EXPOSE 10000
 
-# 🔥 MIGRATE + CLEAN DUPLICATES + SEED + STORAGE LINK + START
-CMD php artisan migrate --force \
- && php artisan tinker --execute="DB::statement(\"DELETE FROM courses a USING courses b WHERE a.id > b.id AND a.name = b.name\");" \
- && php artisan db:seed --class=CoursesSeeder --force \
+# Proper startup script
+CMD php artisan config:clear \
+ && php artisan cache:clear \
+ && php artisan config:cache \
+ && php artisan migrate --force \
  && php artisan storage:link \
- && php artisan serve --host=0.0.0.0 --port=10000
+ && php -S 0.0.0.0:10000 -t public

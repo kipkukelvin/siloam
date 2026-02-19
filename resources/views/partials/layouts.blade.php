@@ -7,7 +7,7 @@
     <meta name="generator" content="Astro v5.13.2" />
 
     <title>@yield('title', 'Page Title')</title>
-    <link rel="icon" href="{{ asset('assets/images/ICON.png') }}" type="image/png" ?v=5>
+  <link rel="icon" href="{{ asset('assets/images/ICON.png') }}?v=5" type="image/png">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
