@@ -1,7 +1,7 @@
 @extends('partials.layouts')
 @section('title', 'SHCHS | Our-Programs')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-@section('content')
+
 <div class="position-relative bg-info mt-3 mb-1 text-white">
     <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100 opacity-75"
         style="height:auto; object-fit:cover;max-height: 300px;" alt="">
@@ -12,7 +12,7 @@
        Our Courses
     </div>
 </div>
-
+@section('content')
     <main class="container fw-normal pt-3 fs-5 fst-italic">
         <div class="row g-4">
 

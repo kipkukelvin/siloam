@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
              $table->string('name');
+             $table->string('level'); // Certificate / Diploma
+             $table->string('department')->nullable();
             $table->timestamps();
         });
     }

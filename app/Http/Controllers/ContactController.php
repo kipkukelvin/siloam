@@ -17,21 +17,24 @@ class ContactController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
+            'subject' => 'required',
             'message' => 'required'
         ]);
 
 $data = [
     'name'    => $request->name,
     'email'   => $request->email,
+    'subject'  => $request->subject,
     'user_message' => $request->message,
 ];
 
-Mail::send('emails.contact', $data, function($msg) {
+Mail::send('emails.contact', $data, function($msg) use ($data){
     $msg->to('info.siloamict@gmail.com')
-        ->subject('New Contact Message');
+        ->replyTo($data['email'], $data['name'])
+        ->subject($data['subject']);
 });
 
 
-        return back()->with('success', 'Your message has been sent!');
+        return back()->with('success', 'Message sent successfully!');
     }
 }

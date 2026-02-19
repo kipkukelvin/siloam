@@ -50,11 +50,12 @@ class ApplicationController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'phone' => $data['phone'],
-            'course_id' => $data['course'],
+            'course' => $data['course'],
             'id_scan' => $idScanPath,
             'academic_certificates' => $certPath,
         ]);
        $application->load('course'); 
+       
          Mail::send('emails.admission', [
             'app' => $application
         ], function ($message) use ($application, $idScanPath, $certPath) {
@@ -65,7 +66,7 @@ class ApplicationController extends Controller
         });
            Mail::send('emails.user_confirmation', [
             'name' => $application->name,
-            'course' => $application->course->name
+            'course' => $application->course
         ], function ($message) use ($application) {
             $message->to($application->email)
                     ->subject('Application Received');

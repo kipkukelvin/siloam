@@ -1,24 +1,24 @@
  <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
- <div class="text-monospace pt-3 fw-bold fs-4 fade-up">
-     <h1 class=" text-center text-primary mb-2">
-            About Us
+ <div class="text-monospace pt-3 font fw-bold fs-4 fade-up">
+     <h1 class=" text-center text-black mt-4 text-uppercase mb-2">
+            About SMTC
         </h1>
-        <span style="display:block; width:60px; height:2px; background:#0199ff;; margin:5px auto 0;"></span>
+        <span style="display:block; width:80px; height:2px; background:red; margin:5px auto 0;"></span>
         <h4 class="text-secondary text-center fst-italic mb-4 mt-4">
             Shaping Minds, Transforming Lives.
         </h4>
-        <p class="lead text-muted mx-auto" style="max-width: 750px;">
-            At Siloam Hospital College of Health Sciences, we focus on empowering students 
+        <p class="lead fs-6 text-muted mx-auto" style="max-width: 750px;">
+            At Siloam Medical & Technical College, we focus on empowering students 
             through practical learning, industry-aligned programs, and a supportive academic environment. 
             Our goal is to develop skilled professionals ready to thrive in today’s evolving world.
         </p>
     </div>  
-   <div class="container class-name my-4 pt-3">
+   <div class="container font  my-4 pt-3">
   <div class="row g-4">
 
     <!-- Vision -->
     <div class="col-md-6 text-center">
-      <div class="card dotted-card border-info fade-up">
+      <div class="card border-darkslate fade-up">
         <h5 class="mt-3 fs-2">Vision</h5>
         <div class="card-body">
           <p class="fs-6 mb-2">
@@ -29,10 +29,10 @@
     </div>
 
     <!-- Mission -->
-    <div class="col-md-6 text-center">
-      <div class="card dotted-card h-100 border-info fade-up">
+    <div class="col-md-6 text-center text-red">
+      <div class="card h-100 border-darkslate fade-up">
         <h5 class="mt-3 fs-2">Mission</h5>
-        <div class="card-body">
+        <div class="card-body ">
           <p class="fs-6 mb-2 text-start me-3">
             To empower students with innovative healthcare education that develops expertise, compassion, and leadership, preparing them to excel in their professionals and improve lives everywhere.
           </p>
@@ -42,11 +42,11 @@
 
     <!-- Core Values -->
     <div class="row justify-content-center mt-5">
-      <div class="col-md-10">
-        <div class="card dotted-card h-100 border-info bg-light fade-up">
+      <div class="col-md-8">
+        <div class="card h-100 border-light bg text-white fade-up">
           <h5 class="mt-4 fs-2 text-center">Core Values</h5>
           <div class="card-body text-start ps-4">
-            <ul class="list-style-type: square;">
+            <ol class="">
               <li>Excellence - Striving for the highest standards in education, practice, and patient care.</li>
               <li>Compassion - Fostering empathy, kindness, and patient-centered care.</li>
               <li>Integrity - Upholding honesty, ethics, and professionalism in all actions.</li>
@@ -54,7 +54,7 @@
               <li>Collaboration - Promoting teamwork and partnerships for improved healthcare outcomes.</li>
               <li>Lifelong Learning - Committing to continuous education and professional development.</li>
               <li>Service to humanity - Dedicated to improving lives through quality healthcare education and practice.</li>
-            </ul>
+            </ol>
           </div>
         </div>
       </div>

@@ -1,12 +1,13 @@
 @extends('partials.layouts')
 
 @section('title','Dean of Students')
-<div class="container-fluid bg-info text-dark py-4">
+@section('content')
+<div class="container-fluid bg-info text-dark mt-2 py-4">
   <h2 class="text-center fw-bold m-0">
     Office of the Dean of Students
   </h2>
 </div>
-@section('content')
+
 <div class="container my-4 me-3 col-md-11">
   <div class="">
     <div class="card-body font">

@@ -42,3 +42,18 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.form'
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/student/login', [HomeController::class, 'login'])->name('student.login');
 Route::post('/student/login', [ContactController::class, 'login'])->name('login');
+
+Route::get('/admin/students', function(){
+ return view('admin.students',['students'=>Student::with('course')->get()]);
+});
+
+Route::middleware(['auth','admin'])
+    ->prefix('admin')
+    ->name('admin.')
+    ->group(function(){
+        Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard');
+        Route::get('/applications',[ApplicationController::class,'index'])->name('applications.index');
+        Route::post('/applications/{application}/approve',[ApplicationController::class,'approve'])->name('applications.approve');
+        Route::post('/applications/{application}/reject',[ApplicationController::class,'reject'])->name('applications.reject');
+        Route::resource('courses',CourseController::class);
+});

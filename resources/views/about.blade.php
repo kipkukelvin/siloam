@@ -7,16 +7,16 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     @section('content')
 <div class="class-name text-start mt-2">
-    <h2 class="class-name mb-2 mt-5 text-capitalize text-center">welcome to Siloam College of Health Sciences.</h2>
-    <span style="display:block; width:200px; height:2px; background:#ff0101; margin:5px auto 0;"></span>
+    <h2 class="class-name mb-2 mt-5 text-center">Wlcome to Siloam Medical & Technical College</h2>
+    <span style="display:block; width:200px; height:3px; background:#ff0101; margin:5px auto 0;"></span>
     <div class="container my-4">
         <div class="row g-0 mb-4 my-4">
             <div class="col-md-4">
                 <p class="text-uppercase text-center fs-1">Our <br> mandate</p>
-                <span style="display:block; width:100px; height:2px; background:#ff0101; margin:5px auto 0;"></span>
+                <span style="display:block; width:100px; height:3px; background:#ff0101; margin:5px auto 0;"></span>
             </div>
             <div class="col-md-8">
-                <h3 class="mb-4 mt-4 ms-4 text-start fs-5 text-muted">Siloam College of Health Sciences operates with
+                <h3 class="mb-4 mt-4 ms-4 text-start fs-5 text-muted">Siloam Medical & Technical College operates with
                     the explicit
                     mandate to prepare world-class healthcare professionals who will transform healthcare systems, both
                     locally and
@@ -35,6 +35,29 @@
                 community and belonging, allowing students to build friendships, network with peers, and explore new
                 interests. Through a balance of learning and extracurricular activities, students gain practical
                 experiences that prepare them for personal growth and future careers.</p>
+                <div class="lightbox" data-mdb-lightbox-init>
+  <div class="row">
+    <div class="col-lg-6">
+      <img
+        src="{{ asset('assets/images/offcampus.jpg') }}"
+        alt=""
+        class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+      />
+      <img
+        src="{{ asset('assets/images/campus.jpg') }}"
+        alt=""
+        class="w-100 shadow-1-strong rounded"
+      />
+    </div>
+    <div class="col-lg-6">
+      <img
+        src="{{ asset('assets/images/soccer.jpg') }}"
+        alt=""
+        class="w-100 shadow-1-strong rounded"
+      />
+    </div>
+  </div>
+</div>
         </div>
         <div class="container my-5 p-0">
             <div class="row g-0">

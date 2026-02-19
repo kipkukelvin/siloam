@@ -16,9 +16,12 @@ return new class extends Migration
              $table->string('name');
              $table->string('email');
              $table->string('phone');
+             $table->string('course');
              $table->string('id_scan');
              $table->string('academic_certificates');
+             $table->string('status')->default('Pending');
              $table->timestamps();
+             
         });
     }
 

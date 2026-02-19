@@ -79,3 +79,16 @@ window.addEventListener("scroll", function () {
         });
     });
 });
+
+function toggleWhatsApp() {
+    document.getElementById("whatsappPopup").classList.toggle("active");
+}
+
+/* Show icon after 2 seconds */
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        document.querySelector(".whatsapp-wrapper").classList.add("show");
+    }, 1500);
+});
+
+

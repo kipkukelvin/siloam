@@ -6,25 +6,24 @@
 
         <!-- Indicators -->
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
 
-            <div class="carousel-item active">
-                <img src="{{ asset('assets/images/bd.jpg') }}" class="d-block w-100 hero-image" alt="Slide 1">
+            <div class="carousel-item">
+                <img src="{{ asset('assets/img/22.jpg') }}" class="d-block w-100 hero-image" alt="Slide 1">
             </div>
 
             <div class="carousel-item">
                 <img src="{{ asset('assets/img/ADM.jpg') }}" class="d-block w-100 hero-image" alt="Slide 2">
             </div>
 
-            <div class="carousel-item">
-                <img src="{{ asset('assets/img/22.jpg') }}" class="d-block w-100 hero-image" alt="Slide 3">
+            <div class="carousel-item active">
+                <img src="{{ asset('assets/images/bd.jpg') }}" class="d-block w-100 hero-image" alt="Slide 3">
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('assets/img/54.jpg') }}" class="d-block w-100 hero-image" alt="Slide 4">
@@ -38,12 +37,11 @@
     <!-- Overlay -->
     <div class="hero-overlay text-center">
         <h2 class="hero-title">
-            Welcome to Siloam Hospital College of Health Sciences
+            Welcome to Siloam Medical & Technical College
         </h2>
 
         <div class="hero-buttons mt-3">
-            <a href="{{ route('academic.programs') }}" class="btn btn-primary btn-lg px-4">Apply Now</a>
-            <a href="#academic-section" class="btn btn-outline-light btn-lg px-4 ms-2">Learn More</a>
+            <a href="{{ route('academic.programs') }}" class="btn btn-success btn-lg px-4">Apply Now</a>
         </div>
     </div>
 

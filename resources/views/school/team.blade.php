@@ -2,17 +2,18 @@
 @section('title', 'Siloam-Team')
 
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative">
-    <img src="{{ asset('assets/img/29.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
-        alt="">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
-    <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
-        <h1 class="hero-title fw-bold  text-uppercase">Our Team</h1>
+@section('content')
+    <div class="position-relative">
+        <img src="{{ asset('assets/images/TEAM.jpg') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
+            alt="">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
+        <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
+            <h1 class="hero-title fw-bold  text-uppercase">Our Team</h1>
+        </div>
+
     </div>
 
-</div>
-@section('content')
-    <div>
+    <div class="mt-4">
         <h3 class="text-center text-uppercase text-primary">The Board</h3>
     </div>
     <span style="display:block; width:60px; height:2px; background:#fa0000; margin:5px auto 0;"></span>
@@ -58,7 +59,7 @@
 
                     <div class="card-body text-center">
                         <h4 class="card-title">Bernadette Sang</h4>
-                        <p class="card-text">Principal</p>
+                        <p class="card-text">The Principal</p>
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
                             data-bs-target="#profilePrincipal">
                             <i class="fas fa-user-graduate me-2"></i>See Profile
@@ -84,6 +85,15 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="mt-4">
+        <h3 class="text-center text-uppercase text-primary">The Administrative Team
+        </h3>
+    </div>
+    <span style="display:block; width:150px; height:2px; background:#fa0000; margin:5px auto 0;"></span>
+    <div class="container my-5">
+        <div class="row g-4 justify-content-center">
             <!-- Card 4 -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
@@ -370,7 +380,7 @@
                         alt="Siloam">
                     <div class="card-body text-center">
                         <h4 class="card-title">Lovenda Cherono</h4>
-                        <p class="card-text">School Nurse</p>
+                        <p class="card-text">Tutor & School Nurse</p>
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
                             data-bs-target="#profileLovenda">
                             <i class="fas fa-user-graduate me-2"></i>See Profile
@@ -480,6 +490,42 @@
                                         independent, confident information seekers. My goal is to ensure that the Siloam
                                         College Library remains a vital academic resource that contributes meaningfully to
                                         student success and institutional excellence.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="{{ asset('assets/images/PPTs.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
+                        alt="Siloam">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Brenda</h4>
+                        <p class="card-text">Tutor</p>
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                            data-bs-target="#profilePurity">
+                            <i class="fas fa-user-graduate me-2"></i>See Profile
+                        </button>
+                        <div class="modal fade" id="profilePurity" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content p-3 text-center">
+
+                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2"
+                                        data-bs-dismiss="modal"></button>
+
+                                    <h6 class="fw-bold mb-1">Brenda</h6>
+                                    <p class="small text-muted mb-1">Tutor</p>
+                                    <p class="small mb-0">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                                        quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+                                        nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                                        justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                        Vivamus elementum semper nisi.
                                     </p>
 
                                 </div>

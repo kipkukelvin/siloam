@@ -204,7 +204,7 @@
 }
 
 .font {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'PT Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
 }
 
 .apply-btn {
@@ -246,4 +246,111 @@
 }
 .nav{
   font-family: PT Serif, sans-serif;
+}
+.whatsapp-wrapper {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 9999;
+        opacity: 0;                 /* hidden initially */
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+}
+
+.whatsapp-wrapper.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Floating circle button */
+.whatsapp-button {
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Popup box */
+.whatsapp-popup {
+    width: 350px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    overflow: hidden;
+
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.whatsapp-popup.active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.popup-header {
+    background: #25D366;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-body {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.chat-btn {
+    display: block;
+    background: #25D366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.chat-btn:hover {
+    background: #20b358;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+.bg{
+  background-color: #0b236b;
+}
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(243, 210, 20, 0.705);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: rgba(255, 0, 0, 0.705);
+}
+
+.social-icon i {
+  font-size: 16px;
 }

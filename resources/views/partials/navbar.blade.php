@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="bg-info text-white fixed-top py-1" style="z-index:1100;">
+<div class="bg text-white fixed-top py-1" style="z-index:1100;">
     <marquee id="intakeMarquee"behavior="scroll" direction="left">
         January Intake Ongoing 🚀 —
         <a href="{{ route('academic.programs') }}" class="btn btn-warning btn-sm mx-2"
@@ -9,14 +9,14 @@
         — Limited slots — Enroll today!
     </marquee>
 </div>
-<div id="mainNavbar" class="container-fluid bg-light shadow-sm fixed-top" style="top:8px; z-index:1000;">
+<div id="mainNavbar" class="container-fluid bg-w shadow-sm fixed-top font" style="top:8px; z-index:1000;">
 
     <div style="margin-top:30px;"></div>
     <header class="d-flex justify-content-between align-items-center text-primary py-3 bg-opacity-50 hover-success">
         <!-- Left side: Logo + Nav -->
         <div class="d-flex align-items-center fw-light fs-6">
             <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
-                <img src="{{ asset('assets/images/web.png') }}" class="img-fluid me-2" alt="Logo"
+                <img src="{{ asset('assets/images/LOGO.png') }}" class="img-fluid me-2" alt="Logo"
                     style="height: 55px; object-fit: contain;">
             </a>
 
@@ -49,7 +49,7 @@
                                     <ul class="list-unstyled">
                                         <li><a class="dropdown-item py-1" href="#">Health Sciences</a></li>
                                         <li><a class="dropdown-item py-1" href="#">ICT & Computer Studies</a></li>
-                                        <li><a class="dropdown-item py-1" href="#">Technical Courses</a></li>
+                                        <li><a class="dropdown-item text-muted py-1" href="#" >Technical Courses</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-3">
@@ -57,21 +57,14 @@
                                     <ul class="list-unstyled">
                                         <li>
                                             <a class="dropdown-item py-1"
-                                                href="{{ asset('assets/Files/TIMETABLE.pdf') }}" target="_blank"
-                                                rel="noopener noreferrer">
-                                                Teaching Timetables
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item py-1"
-                                                href="{{ asset('assets/Files/ACADEMIC CALENDAR.pdf') }}" target="_blank"
+                                                href="{{ asset('assets/Files/Calendar.pdf') }}" target="_blank"
                                                 rel="noopener noreferrer">
                                                 Academic Calendars
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item py-1" href="" target="_blank"
-                                                rel="noopener noreferrer" onclick="return false;">
+                                            <a class="dropdown-item py-1" href="{{ asset('assets/Files/Fee Structures.pdf') }}" target="_blank"
+                                                rel="noopener noreferrer">
                                                 Fee Structures
                                             </a>
                                         </li>
@@ -85,9 +78,9 @@
                 <li class="nav-item dropdown">
                     <div class="nav-link text-uppercase dropdown-toggle text-decoration-none" id="academicsDropdown"
                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        About Us</div>
+                        About US</div>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item py-1" href="{{ route('about') }}">About US</a></li>
+                        <li><a class="dropdown-item py-1" href="{{ route('about') }}">About SMTC</a></li>
                         <li><a class="dropdown-item py-1" href="{{ route('school.team') }}">Our Team</a></li>
                         <li class="dropdown-item p-0">
                             <button class="btn btn-link dropdown-item text-start py-1 w-100" type="button"

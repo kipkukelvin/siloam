@@ -1,14 +1,17 @@
 @extends('partials.layouts')
 
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @section('title', 'Contact Us')
-<link rel="shortcut icon" type="image/png/jpg" href="{{ asset('assets/images/logo.png') }}?v=5">
-<div class="container-fluid bg-info text-light py-2">
+@section('content')
+<div class="container-fluid bg text-light mt-2 y-2">
     <h2 class="text-center fw-bold m-0">
         Contacts
     </h2>
 </div>
-@section('content')
-    <div class="container py-3">
+<h2 class="text-center text-uppercase text-primary mt-4">Get in Touch</h2>
+<span style="display:block; width:150px; height:2px; background:#fa0000; margin:5px auto 0;"></span>
+
+    <div class="container py-3 font">
         <div class="text-center mb-5">
             <p class="lead">We are here to answer your questions and provide support. Reach out to us using the form below
                 or through our contact details.</p>
@@ -17,7 +20,7 @@
         <div class="table-responsive">
             <table class="table table-borderless text-center" style="table-layout: fixed; width: 100%;">
 
-                <th class="bg-info">Contacts</th>
+                <th class="bg-success">Contacts</th>
                 <tr>
                     <th>Main Office</th>
                     <th>Academics</th>
@@ -27,11 +30,11 @@
                 <tbody>
                     <tr>
                         <td>
-                            <p><i class="fas fa-map-marker-alt me-2"></i><strong>Address:</strong> 2181-20200 Matobo,
+                            <p><i class="fas fa-map-marker-alt me-2"></i><strong>Address:</strong> <br>2181-20200 Matobo,
                                 Kericho, Kenya</p>
-                            <p><i class="fas fa-phone me-2"></i><strong>Phone:</strong> +254 701 444 333</p>
-                            <p><i class="fas fa-envelope me-2"></i><strong>Email:</strong>
-                                info.siloamhospitalcollegeofhscs@gmail.com</p>
+                            <p><i class="fas fa-phone me-2"></i><strong>Phone:</strong> <br>+254 701 444 333</p>
+                            <p><i class="fas fa-envelope me-2"></i><strong>Email:</strong><br>
+                                info.siloamcollegeofhscs@gmail.com</p>
                         </td>
                         <td>
                             <p><strong>Registrar</strong></p>

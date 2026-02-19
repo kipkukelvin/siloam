@@ -10,13 +10,14 @@ class Application extends Model
      protected $fillable = [
         'name',
         'email',
-        'id_scan',
         'phone',  
-        'course_id',
+        'course',
+        'id_scan',
         'academic_certificates',
+        'status',
     ];
        public function course()
     {
-         return $this->belongsTo(Course::class);
+         return $this->belongsTo(Course::class, 'course');
     }
 }

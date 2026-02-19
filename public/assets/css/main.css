@@ -115,3 +115,7 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+.border-darkslate
+{
+  border: 2px solid #483D8B !important;;
+}

@@ -4,7 +4,6 @@
 <p><strong>Email:</strong> {{ $app->email }}</p>
 <p><strong>Phone:</strong> {{ $app->phone ?? 'N/A' }}</p>
 
-<p><strong>Course Applied For:</strong> {{ $app->course->name }}</p>
-
+<p><strong>Course Applied For:</strong> {{ $app->course }}</p>
 <p>Attached are the applicant’s ID and academic certificates.</p>
 
