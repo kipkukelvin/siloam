@@ -13,7 +13,7 @@
     </div>
 </div>
 @section('content')
-    <main class="container fw-normal pt-3 fs-5 fst-italic">
+    <main class="container fw-normal mb-4 pt-3 fs-5 fst-italic">
         <div class="row g-4">
 
             <!-- Orthopedics -->

@@ -1,10 +1,12 @@
-<div class="container-fluid bg-red mt-5">
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<div class="container box mt-5">
     <div class="row justify-content-center">
+
         <h2 class="text-center mb-3">Have anything to ask?</h2>
         <h3 class="text-center text-muted mb-4">Email us below.</h3>
 
-        <div class="col-md-10 column mb-5">
-            <div class="card shadow border-danger bg-light">
+        <div class="col-md-10 column">
+            <div class="card shadow border-info bg-light">
                 <div class="card-body">
 
                     @if(session('success'))

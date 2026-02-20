@@ -12,7 +12,7 @@
 <div id="mainNavbar" class="container-fluid bg-w shadow-sm fixed-top font" style="top:8px; z-index:1000;">
 
     <div style="margin-top:30px;"></div>
-    <header class="d-flex justify-content-between align-items-center text-primary py-3 bg-opacity-50 hover-success">
+    <header class="d-flex justify-content-between align-items-center text-danger py-3 bg-opacity-50 hover-success">
         <!-- Left side: Logo + Nav -->
         <div class="d-flex align-items-center fw-light fs-6">
             <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
