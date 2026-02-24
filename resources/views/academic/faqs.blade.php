@@ -2,14 +2,12 @@
 
 @section('title', 'FAQs')
 
-<div class="container-fluid bg-light text-primary py-3">
+@section('content')
+<div class="container-fluid bg-warning mt-2 text-white py-3">
   <h2 class="text-center fw-bold m-0">
     Frequently Asked Questions.
   </h2>
 </div>
-
-@section('content')
-
 <div class="container my-2">
     <div class="accordion" id="faqAccordion">
 
@@ -74,7 +72,8 @@
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour"
                  data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    You can reach us at <a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamhospitalcollegeofhscs@gmail.com" target="_blank" rel="noreferrer noopener" class="text-primary text-decoration-none">info.siloamcollegeofhscs@gmail.com</a> or visit the admissions office on campus.
+                    You can reach us at <a href="{{ route('partials.contacts') }}">our contact page
+                        </a> or visit the admissions office on campus.
                 </div>
             </div>
         </div>

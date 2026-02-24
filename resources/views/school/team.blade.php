@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @section('content')
-    <div class="position-relative">
+    <div class="position-relative pt-4">
         <img src="{{ asset('assets/images/TEAM.jpg') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
             alt="">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
@@ -376,50 +376,6 @@
             <!-- Card 6 -->
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/img/lab.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
-                        alt="Siloam">
-                    <div class="card-body text-center">
-                        <h4 class="card-title">Lovenda Cherono</h4>
-                        <p class="card-text">Tutor & School Nurse</p>
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
-                            data-bs-target="#profileLovenda">
-                            <i class="fas fa-user-graduate me-2"></i>See Profile
-                        </button>
-                        <div class="modal fade" id="profileLovenda" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered modal-md">
-                                <div class="modal-content p-3 text-center">
-
-                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2"
-                                        data-bs-dismiss="modal"></button>
-
-                                    <h6 class="fw-bold mb-1">Lovenda Cherono</h6>
-                                    <p class="small text-muted mb-1">Trainer & Resident Clinical Officer</p>
-                                    <p class="small mb-0">
-                                        Trainer and Resident Clinical Officer at Siloam Hospital College of Health Sciences,
-                                        I integrate comprehensive patient care with clinical education and mentorship.
-                                        Guided by the institution’s mission to empower students with innovative healthcare
-                                        education, I am committed to developing expertise, compassion, and leadership among
-                                        trainees, while ensuring excellence and ethical practice in clinical service. I
-                                        deliver structured classroom lectures, facilitate interactive discussions, conduct
-                                        case-based learning sessions and supervise student projects and assignments to
-                                        reinforce knowledge. I contribute to curriculum planning and quality improvement
-                                        initiatives. My practice is grounded in the College’s core values of excellence,
-                                        integrity, compassion, collaboration, innovation and lifelong learning. I am
-                                        dedicated to nurturing competent, ethical and compassionate healthcare professionals
-                                        while advancing the College’s vision of preparing world-class practitioners who
-                                        transform healthcare locally and globally.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
                     <img src="{{ asset('assets/images/Rency.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
                         alt="Siloam">
                     <div class="card-body text-center">
@@ -500,16 +456,16 @@
             </div>
             <div class="col-md-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="{{ asset('assets/images/PPTs.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
+                    <img src="{{ asset('assets/images/PR.jpg') }}" class="rounded-circle mx-auto mt-2 profile-img"
                         alt="Siloam">
                     <div class="card-body text-center">
                         <h4 class="card-title">Brenda</h4>
                         <p class="card-text">Tutor</p>
                         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
-                            data-bs-target="#profilePurity">
+                            data-bs-target="#profileBrenda">
                             <i class="fas fa-user-graduate me-2"></i>See Profile
                         </button>
-                        <div class="modal fade" id="profilePurity" tabindex="-1">
+                        <div class="modal fade" id="profileBrenda" tabindex="-1">
                             <div class="modal-dialog modal-dialog-centered modal-md">
                                 <div class="modal-content p-3 text-center">
 

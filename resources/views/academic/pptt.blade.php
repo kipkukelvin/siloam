@@ -14,7 +14,7 @@
 <div class="container card-body my-4">
   <div class="row">
     <div class="col-12">
-      <div class="card border-info bg-light h-100 p-4 border-top-3 ">
+      <div class="card border-warning border-0 bg-light h-100 p-4 border-top ">
         <h4 class="fw-bold mb-3">Overview</h4>
         <p class="fs-6">
           The Perioperative Theatre Technology program at Siloam Medical & Technical College equips students with the knowledge and skills required to support surgical teams. The course covers operating room procedures, theatre organization, sterilization techniques, infection prevention, patient preparation, and assisting surgeons during operations.
@@ -28,10 +28,10 @@
   <div class="row g-4">
 
     <!-- Column 1: Accreditation Body -->
-    <div class="col-md-4">
-      <div class="card border-info h-100 card-hover">
+    <div class="col-md-5  mx-auto">
+      <div class="card border-light h-100 card-hover">
         <!-- Header -->
-        <div class="card-header bg-info text-white">
+        <div class="card-header bg text-white">
           <h5 class="mb-0"><i class="fa fa-award me-2"></i>Accreditation Body</h5>
         </div>
         <!-- Content -->
@@ -46,7 +46,7 @@
     </div>
 
     <!-- Column 2: Diploma -->
-    <div class="col-md-4">
+    <div class="col-md-5 mx-auto">
       <div class="card border-info h-100 card-hover">
         <!-- Header -->
         <div class="card-header bg-info text-white">
@@ -57,29 +57,6 @@
           <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
           <ul class="list-unstyled fs-6 mb-0">
             <li>KCSE Mean Grade C (Plain) or equivalent</li>
-            <li>English or Kiswahili C– and above</li>
-            <li>Biology or Physical Science C (Plain) and above</li>
-            <li>Any other relevant subject C– and above</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Column 3: Certificate -->
-    <div class="col-md-4">
-      <div class="card border-info h-100 card-hover">
-        <!-- Header -->
-        <div class="card-header bg-info text-white">
-          <h5 class="mb-0"><i class="fa fa-certificate me-2"></i>Certificate</h5>
-        </div>
-        <!-- Content -->
-        <div class="card-body">
-           <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
-          <ul class="list-unstyled fs-6 mb-0">
-            <li>KCSE Mean Grade D– or equivalent</li>
-            <li>English or Kiswahili D– and above</li>
-            <li>Biology or Physical Science D– and above</li>
-            <li>Any other relevant subject D– and above</li>
           </ul>
         </div>
       </div>
@@ -90,7 +67,7 @@
 <!-- Choose Us -->
 <div class="container card-body my-4">
   <div class="row">
-    <div class="col-12">
+    <div class="col-md-12">
       <div class="card border-light bg-light h-100 p-4 border-top-3">
         <h4 class="fw-bold mb-3">Why Choose Us!
             <span class="d-block mt-1" style="height:3px; width:50px; background-color:#0dcaf0;"></span>
@@ -141,14 +118,14 @@
 <div class="container card-body card-hover my-4">
   <div class="row">
     <div class="col-12">
-      <div class="card border-info bg-light h-100 p-4">
-        <h4 class="fw-bold mb-3">Apply Now</h4>
+      <div class="card border-light bg-light h-100 p-4">
+        <h4 class="fw-bold mb-3">Enroll Now</h4>
         <p class="fs-6">
           Interested candidates can apply online or visit the admissions office for more details.
           Please ensure that all required documents are ready before submission.
         </p>
         <div class="text-center">
-        <a href="{{ route('academic.application') }}" class="btn btn-info text-white mt-3 px-5 py-4 w-auto d-inline-block rounded-pill fs-4">Apply Now</a>
+        <a href="{{ route('academic.application') }}" class="btn btn-warning text-white mt-3 px-3 py-2 d-inline-block fs-4">Apply Now</a>
       </div>
       </div>
     </div>

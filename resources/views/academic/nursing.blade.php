@@ -1,23 +1,23 @@
 @extends('partials.layouts')
-@section('title', 'SMTC-Nursing')
+@section('title', 'SMTC-Nursing (KRCHN)')
+@section('content')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative">
     <img src="{{ asset('assets/images/Nursing.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
         alt="">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
     <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
-        <h1 class="hero-title fw-bold  text-uppercase">Nursing</h1>
+        <h1 class="hero-title fw-bold  text-uppercase">Nursing (KRCHN)</h1>
     </div>
 
 </div>
-@section('content')
 <div class="container card-body my-4">
     <div class="row">
-        <div class="col-12">
-            <div class="card border-info bg-light h-100 p-4 border-top-3">
+        <div class="col-11 mx-auto">
+            <div class="card border-0 border-top border-4 border-success bg-light h-100 p-4">
                 <h4 class="fw-bold mb-3">Overview</h4>
                 <p class="fs-6">
-                    The Nursing program at Siloam Medical & Technical College is designed to equip students with
+                    The Kenya Registered Community Health Nursing program at Siloam Medical & Technical College is designed to equip students with
                     essential knowledge and practical skills required to deliver safe, compassionate, and effective
                     patient care. The program covers fundamentals of nursing practice, anatomy and physiology, patient
                     assessment, vital signs monitoring, infection prevention and control, medication administration,
@@ -32,15 +32,16 @@
     <div class="row g-4">
 
         <!-- Column 1: Accreditation Body -->
-        <div class="col-md-4">
-            <div class="card border-info h-100 card-hover">
+        <div class="col-md-6">
+            <div class="card border-light h-100 card-hover">
                 <!-- Header -->
-                <div class="card-header bg-info text-white">
+                <div class="card-header bg text-white">
                     <h5 class="mb-0"><i class="fa fa-award me-2"></i>Accreditation Body</h5>
                 </div>
                 <!-- Content -->
                 <div class="card-body">
-                    <p class="fw-bold fs-4 mb-2">TVET Accredited</p>
+                    <p class="fw-bold fs-4 mb-2">Licensing Body</p>
+                    <p class="fw-bold fs-4 mb-2">KHPOA Accredited</p>
                     <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examining Body</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>TVET-CDAAC</li>
@@ -50,10 +51,10 @@
         </div>
 
         <!-- Column 2: Diploma -->
-        <div class="col-md-4">
-            <div class="card border-info h-100 card-hover">
+        <div class="col-md-6">
+            <div class="card border-light h-100 card-hover">
                 <!-- Header -->
-                <div class="card-header bg-info text-white">
+                <div class="card-header bg text-white">
                     <h5 class="mb-0"><i class="fa fa-book me-2"></i>Diploma</h5>
                 </div>
                 <!-- Content -->
@@ -61,34 +62,13 @@
                     <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>KCSE Mean Grade C (Plain) or equivalent</li>
-                        <li>English or Kiswahili C– and above</li>
+                        <li>English or Kiswahili C (Plain) and above</li>
                         <li>Biology or Physical Science C (Plain) and above</li>
-                        <li>Any other relevant subject C– and above</li>
+                        <li>Any other relevant subject C– (Minus) and above</li>
                     </ul>
                 </div>
             </div>
         </div>
-
-        <!-- Column 3: Certificate -->
-        <div class="col-md-4">
-            <div class="card border-info h-100 card-hover">
-                <!-- Header -->
-                <div class="card-header bg-info text-white">
-                    <h5 class="mb-0"><i class="fa fa-certificate me-2"></i>Certificate</h5>
-                </div>
-                <!-- Content -->
-                <div class="card-body">
-                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
-                    <ul class="list-unstyled fs-6 mb-0">
-                        <li>KCSE Mean Grade D– or equivalent</li>
-                        <li>English or Kiswahili D– and above</li>
-                        <li>Biology or Physical Science D– and above</li>
-                        <li>Any other relevant subject D– and above</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
     </div>
 </div>
 <!-- Choose Us -->
@@ -148,8 +128,8 @@
 <!-- Full-width column -->
 <div class="container card-body card-hover my-4">
     <div class="row">
-        <div class="col-12">
-            <div class="card border-info bg-light h-100 p-4">
+        <div class="col-10 mx-auto">
+            <div class="card border-0 border-bottom border-4 border-dark bg-light h-100 p-4">
                 <h4 class="fw-bold mb-3">Apply Now</h4>
                 <p class="fs-6">
                     Interested candidates can apply online or visit the admissions office for more details.
@@ -157,7 +137,7 @@
                 </p>
                 <div class="text-center">
                     <a href="{{ route('academic.application') }}"
-                        class="btn btn-outline-primary mt-3 px-4 py-3  w-auto d-inline-block rounded-pill fs-5">
+                        class="btn btn-outline-warning mt-3 px-3 py-2  w-auto d-inline-block fs-4">
                         <i class="fa fa-hand-pointer me-2"></i>Apply Now
                     </a>
                 </div>

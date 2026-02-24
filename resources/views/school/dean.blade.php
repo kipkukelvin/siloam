@@ -2,7 +2,7 @@
 
 @section('title','Dean of Students')
 @section('content')
-<div class="container-fluid bg-info text-dark mt-2 py-4">
+<div class="container-fluid bg-warning text-white mt-2 py-4">
   <h2 class="text-center fw-bold m-0">
     Office of the Dean of Students
   </h2>

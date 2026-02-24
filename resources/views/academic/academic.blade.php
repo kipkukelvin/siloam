@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-<div class="container-fluid px-0 bg p-4 pt-1">
+<div class="container-fluid px-0 bg-1 p-4 mt-md-1 pt-1">
 
     <h3 class="text-white text-center my-3">
         Academics | Programmes
@@ -39,8 +39,8 @@
     </div>
     <div class="text-center mt-3">
         <a href="{{ route('academic.programs') }}"
-            class="btn btn-outline-danger btn-sm mt-3 px-5  py-1 w-auto d-inline-block rounded-pill fs-4">
-            Read More
+            class="btn btn-warning text-black btn-sm mt-3 px-5  py-1 w-auto d-inline-block rounded-pill fs-4">
+            Explore Our Courses
         </a>
     </div>
 </div>

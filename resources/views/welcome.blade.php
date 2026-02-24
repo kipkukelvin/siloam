@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
+<link rel="stylesheet" href="{{asset('bt/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('bt/css/bootstrap-utilities.min.css')}}">
 <div class="hero-wrapper position-relative">
     <!-- Carousel -->
     <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -40,8 +41,8 @@
             Welcome to Siloam Medical & Technical College
         </h2>
 
-        <div class="hero-buttons mt-3">
-            <a href="{{ route('academic.programs') }}" class="btn btn-success btn-lg px-4">Apply Now</a>
+        <div class="hero-buttons text-center mt-3">
+            <a href="{{ route('academic.programs') }}" class="btn btn-warning text-white btn-lg px-4">Apply Now</a>
         </div>
     </div>
 

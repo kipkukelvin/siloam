@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 <div class="container my-4">
-  <h2 class="text-center fw-bold pt-4 fs-3 mb-4">Student Life</h2>
+  <h2 class="text-center text-warning fw-bold pt-4 fs-3 mb-4">Student Life</h2>
 
   <div class="scrolling-row">
     <div class="scrolling-images">

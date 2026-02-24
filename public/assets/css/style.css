@@ -65,6 +65,11 @@
   transform: translateY(-50%);
 }
 
+.nav-link {
+  color: #f31010;
+  transition: color 0.3s ease;
+}
+
 .nav-link:hover {
   color: #000;
 }
@@ -86,11 +91,12 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
-.box{
- background-color: #ffffff;
+
+.box {
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(47, 2, 129, 0.1); 
+  box-shadow: 0 2px 5px rgba(47, 2, 129, 0.1);
 }
 
 .html {
@@ -116,13 +122,13 @@
 /* Prevent flicker between hover areas */
 .dropdown-menu {
   margin-top: 0;
-  border: 3px solid #3a0577;
+  border-top: 2px solid #ff0909;
   /* optional accent */
 }
 
 .dropdown-item:hover {
   color: red;
-  background-color: #dde1e7;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 
@@ -187,13 +193,19 @@
   background-position: center;
 }
 
+.card-1 {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px rgba(51, 255, 0, 0.1);
+}
+
 .card-hover {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card-hover:hover {
   transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(28, 2, 88, 0.2);
 }
 
 .img-fluid {
@@ -215,7 +227,6 @@
 
 .apply-btn {
   background-color: #198754;
-  /* green */
   border-color: #198754;
   color: #ffffff;
   transition: all 0.3s ease;
@@ -229,116 +240,130 @@
 }
 
 .ab {
-  background-color: #0590ec;
-  /* green */
-  border-color: #0590ec;
-  color: #ffffff;
+  background-color: rgb(255, 255, 0);
+  border-color: #ffffff;
+  color: #000000;
   transition: all 0.3s ease;
 }
 
 .ab:hover {
-  background-color: #2c2b2be0;
-  border-color: #2c2b2be0;
-  color: #d4af37
+  background-color: #ff0000e0;
+  border-color: #ffffff;
+  color: #ffffff
 }
+
 .table a {
-    text-decoration: none !important; /* overrides any Bootstrap or browser style */
-    color: inherit; /* optional: keep same color as text */
+  text-decoration: none !important;
+  /* overrides any Bootstrap or browser style */
+  color: inherit;
+  /* optional: keep same color as text */
 }
 
 .table a:hover {
-    text-decoration: none !important; /* ensures hover doesn’t underline */
-    color: #ff0202; /* optional hover color */
+  text-decoration: none !important;
+  /* ensures hover doesn’t underline */
+  color: #ff0202;
+  /* optional hover color */
 }
-.nav{
+
+.nav {
   font-family: PT Serif, sans-serif;
 }
+
 .whatsapp-wrapper {
-    position: fixed;
-    bottom: 20px;
-    left: 10px;
-    z-index: 9999;
-        opacity: 0;                 /* hidden initially */
-    transform: translateY(20px);
-    transition: all 0.4s ease;
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  z-index: 9999;
+  opacity: 0;
+  /* hidden initially */
+  transform: translateY(20px);
+  transition: all 0.4s ease;
 }
 
 .whatsapp-wrapper.show {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Floating circle button */
 .whatsapp-button {
-    width: 60px;
-    height: 60px;
-    background: #25D366;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Popup box */
 .whatsapp-popup {
-    width: 350px;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-    margin-bottom: 15px;
-    overflow: hidden;
+  width: 350px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  overflow: hidden;
 
-    opacity: 0;
-    transform: translateY(20px);
-    pointer-events: none;
-    transition: 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: 0.3s ease;
 }
 
 .whatsapp-popup.active {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .popup-header {
-    background: #25D366;
-    color: white;
-    padding: 12px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
+  background: #25D366;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 .popup-body {
-    padding: 15px;
-    font-size: 14px;
+  padding: 15px;
+  font-size: 14px;
 }
 
 .chat-btn {
-    display: block;
-    background: #25D366;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-top: 10px;
+  display: block;
+  background: #25D366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .chat-btn:hover {
-    background: #20b358;
+  background: #20b358;
 }
 
 .close-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
-.bg{
+
+.bg {
   background-color: #0b236b;
 }
+
+.bg-1 {
+  background-color: #042fb1;
+}
+
+
 .social-icon {
   display: inline-flex;
   align-items: center;
@@ -354,7 +379,7 @@
 
 .social-icon:hover {
   background-color: white;
-  color: rgba(255, 0, 0, 0.705);
+  color: rgba(229, 255, 0, 0.705);
 }
 
 .social-icon i {

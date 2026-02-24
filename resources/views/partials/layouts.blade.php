@@ -7,7 +7,8 @@
     <meta name="generator" content="Astro v5.13.2" />
 
     <title>@yield('title', 'Page Title')</title>
-  <link rel="icon" href="{{ asset('assets/images/ICON.png') }}?v=5" type="image/png">
+  <link rel="icon" href="{{ asset('assets/images/ICON.jpg') }}?v=5" type="image/png">
+  <link rel="stylesheet" href="{{ asset('bt/css/bootstrap.min.css')}}"
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -30,7 +31,7 @@
     {{-- Bootstrap JS --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('js/home.js') }}"></script>
-<style> body { padding-top: 60px; /* space for fixed navbar */ } </style>
+<style> body { padding-top: 80px; /* space for fixed navbar */ } </style>
 <div class="whatsapp-wrapper">
 
     <!-- Chat Popup -->

@@ -30,6 +30,10 @@ class HomeController extends Controller
     {
         return view('school.team');
     }
+     public function refer()
+    {
+        return view('school.earn-referral');
+    }
     public function login()
     {
         return view('student.login');

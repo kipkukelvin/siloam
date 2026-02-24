@@ -1,5 +1,6 @@
 @extends('partials.layouts')
-@section('title', 'SHCHS | Our-Programs')
+@section('title', 'SMTC || Our-Programs')
+@section('content')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 <div class="position-relative bg-info mt-3 mb-1 text-white">
@@ -12,7 +13,6 @@
        Our Courses
     </div>
 </div>
-@section('content')
     <main class="container fw-normal mb-4 pt-3 fs-5 fst-italic">
         <div class="row g-4">
 
@@ -20,7 +20,7 @@
             <div class="column col-md-4">
                 <div class="rounded border shadow-sm bg-white h-100">
                     <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100 rounded-top">
-                    <h5 class="fw-bold p-2 mb-1">
+                    <h5 class="fw-bold text-center p-2 mb-1">
                         Orthopedics & Trauma Medicine
                     </h5>
                     <p class="text-muted p-2 mb-0">

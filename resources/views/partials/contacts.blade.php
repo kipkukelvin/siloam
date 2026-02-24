@@ -8,19 +8,19 @@
         Contacts
     </h2>
 </div>
-<h2 class="text-center text-uppercase text-primary mt-4">Get in Touch</h2>
-<span style="display:block; width:150px; height:2px; background:#fa0000; margin:5px auto 0;"></span>
+<h2 class="text-center text-uppercase text-dark mt-5">Get in Touch</h2>
+<span style="display:block; width:350px; height:2px; background:#200680; margin:5px auto 0;"></span>
 
-    <div class="container py-3 font">
+    <div class="container py-3 mt-3 font">
         <div class="text-center mb-5">
-            <p class="lead">We are here to answer your questions and provide support. Reach out to us using the form below
+            <p class=" fs-6">We are here to answer your questions and provide support. Reach out to us using the form below
                 or through our contact details.</p>
         </div>
         <!-- Contact Info -->
         <div class="table-responsive">
             <table class="table table-borderless text-center" style="table-layout: fixed; width: 100%;">
 
-                <th class="bg-success">Contacts</th>
+                <th class="bg-warning text-white">Contacts</th>
                 <tr>
                     <th>Main Office</th>
                     <th>Academics</th>
@@ -30,10 +30,10 @@
                 <tbody>
                     <tr>
                         <td>
-                            <p><i class="fas fa-map-marker-alt me-2"></i><strong>Address:</strong> <br>2181-20200 Matobo,
+                            <p><i class="fas fa-map-marker-alt me-2 mb-2"></i><strong>Address:</strong> <br>2181-20200 Matobo,
                                 Kericho, Kenya</p>
-                            <p><i class="fas fa-phone me-2"></i><strong>Phone:</strong> <br>+254 701 444 333</p>
-                            <p><i class="fas fa-envelope me-2"></i><strong>Email:</strong><br>
+                            <p><i class="fas fa-phone me-2 mb-2"></i><strong>Phone:</strong> <br>+254 701 444 333</p>
+                            <p><i class="fas fa-envelope me-2 mb-2"></i><strong>Email:</strong><br>
                                 info.siloamcollegeofhscs@gmail.com</p>
                         </td>
                         <td>
@@ -44,12 +44,12 @@
                         </td>
                         <td>
                             <ul class="list-unstyled text-primary">
-                                <li><i class="fab fa-facebook me-2"></i><a
+                                <li><i class="fab fa-facebook me-2 mb-2"></i><a
                                         href="https://www.facebook.com/profile.php?id=61581782424060" target="_blank"
                                         rel="noopener noreferrer">Facebook</a></li>
-                                <li><i class="fab fa-tiktok me-2"></i><a href="https://www.tiktok.com/@siloamcollege25"
+                                <li><i class="fab fa-tiktok me-2 mb-2"></i><a href="https://www.tiktok.com/@siloamcollege25"
                                         target="_blank" rel="noopener noreferrer">TikTok</a></li>
-                                <li><i class="fab fa-instagram me-2"></i><a href="#">Instagram</a></li>
+                                <li><i class="fab fa-instagram me-2 mb-2"></i><a href="#">Instagram</a></li>
                             </ul>
                         </td>
                     </tr>

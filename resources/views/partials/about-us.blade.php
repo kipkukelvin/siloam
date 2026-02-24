@@ -47,13 +47,13 @@
           <h5 class="mt-4 fs-2 text-center">Core Values</h5>
           <div class="card-body text-start ps-4">
             <ol class="">
-              <li>Excellence - Striving for the highest standards in education, practice, and patient care.</li>
-              <li>Compassion - Fostering empathy, kindness, and patient-centered care.</li>
-              <li>Integrity - Upholding honesty, ethics, and professionalism in all actions.</li>
-              <li>Innovation - Encouraging creativity and the adoption of new medical advancements.</li>
-              <li>Collaboration - Promoting teamwork and partnerships for improved healthcare outcomes.</li>
-              <li>Lifelong Learning - Committing to continuous education and professional development.</li>
-              <li>Service to humanity - Dedicated to improving lives through quality healthcare education and practice.</li>
+              <li><strong>Excellence</strong> - Striving for the highest standards in education, practice, and patient care.</li>
+              <li><strong>Compassion</strong> - Fostering empathy, kindness, and patient-centered care.</li>
+              <li><strong>Integrity</strong> - Upholding honesty, ethics, and professionalism in all actions.</li>
+              <li><strong>Innovation</strong> - Encouraging creativity and the adoption of new medical advancements.</li>
+              <li><strong>Collaboration</strong> - Promoting teamwork and partnerships for improved healthcare outcomes.</li>
+              <li><strong>Lifelong Learning</strong> - Committing to continuous education and professional development.</li>
+              <li><strong>Service to Humanity</strong> - Dedicated to improving lives through quality healthcare education and practice.</li>
             </ol>
           </div>
         </div>

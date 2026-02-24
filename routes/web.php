@@ -34,6 +34,8 @@ Route::get('/school/team', [HomeController::class, 'team'])->name('school.team')
 Route::get('/admin/payment', [HomeController::class, 'payment'])->name('admin.payment');
 Route::get('/partials/contacts', [SchoolController::class, 'contacts'])->name('partials.contacts');
 Route::get('/school/career', [SchoolController::class, 'career'])->name('school.career');
+Route::view('/earn-referral', [HomeController::class, 'school.earn-referral'])->name('school.earn-referral');
+
 // show form
 Route::get('/academic/application', [ApplicationController::class, 'create'])->name('academic.application');
 // handle form submission

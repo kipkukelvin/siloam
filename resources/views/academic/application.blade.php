@@ -14,7 +14,7 @@
                     @endforeach
                 </ul>
             </div>
-        @endif
+        @endif 
 
         @if(session('success'))
             <div class="alert alert-success">{{ session('success') }}</div>
@@ -36,12 +36,12 @@
             <input id="phone" name="phone" type="tel" class="form-control" required>
 
             <label class="form-label">Select Course</label>
-           <select name="course" class="form-select" required>
-    <option value="">-- Select Course --</option>
-    @foreach($courses as $course)
-        <option value="{{ $course->id }}">{{ $course->name }}</option>
-    @endforeach
-</select>
+        <select name="course" class="form-select" required>
+            <option value="">-- Select Course --</option>
+                @foreach($courses as $course)
+                    <option value="{{ $course->id }}">{{ $course->name }}</option>
+                @endforeach
+        </select>
 
             <label class="form-label mt-3">Upload ID</label>
             <input type="file" name="id_scan" class="form-control" required>

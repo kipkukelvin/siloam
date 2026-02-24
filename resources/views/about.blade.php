@@ -7,13 +7,13 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     @section('content')
 <div class="class-name text-start mt-2">
-    <h2 class="class-name mb-2 mt-5 text-center">Wlcome to Siloam Medical & Technical College</h2>
-    <span style="display:block; width:200px; height:3px; background:#ff0101; margin:5px auto 0;"></span>
+    <h2 class="class-name mb-2 mt-5 text-center">Welcome to Siloam Medical & Technical College</h2>
+    <span style="display:block; width:200px; height:2px; background:#ff0000; margin:5px auto 0;"></span>
     <div class="container my-4">
         <div class="row g-0 mb-4 my-4">
             <div class="col-md-4">
-                <p class="text-uppercase text-center fs-1">Our <br> mandate</p>
-                <span style="display:block; width:100px; height:3px; background:#ff0101; margin:5px auto 0;"></span>
+                <p class="text-uppercase text-center text-warning-emphasis mb-0 fs-1">Our <br> mandate</p>
+                <span style="display:block; width:250px; height:2px; background:#ff0000; margin:5px auto 0;"></span>
             </div>
             <div class="col-md-8">
                 <h3 class="mb-4 mt-4 ms-4 text-start fs-5 text-muted">Siloam Medical & Technical College operates with
@@ -28,8 +28,8 @@
     </div>
     <div class="container my-5 p-0">
         <div class="card border-0 p-4 text-center">
-            <h2>Campus Life</h2>
-            <p>Campus life offers students a vibrant and enriching experience beyond the classroom. It provides
+            <h2 class="text-warning-emphasis">Campus Life</h2>
+            <p class="fs-5">Campus life offers students a vibrant and enriching experience beyond the classroom. It provides
                 opportunities to engage in academic clubs, sports, cultural activities, and social events, helping
                 students develop leadership, teamwork, and communication skills. Campus life also fosters a sense of
                 community and belonging, allowing students to build friendships, network with peers, and explore new
@@ -50,6 +50,11 @@
       />
     </div>
     <div class="col-lg-6">
+              <img
+        src="{{ asset('assets/images/offcampus.jpg') }}"
+        alt=""
+        class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+      />
       <img
         src="{{ asset('assets/images/soccer.jpg') }}"
         alt=""
@@ -62,8 +67,8 @@
         <div class="container my-5 p-0">
             <div class="row g-0">
                 <div class="col-md-6 p-4">
-                    <h2>Graduation Ceremony</h2>
-                    <p>The graduation ceremony at <strong class="text-capitalize">siloam hospital college of health
+                    <h2 class="text-warning-emphasis">Graduation Ceremony</h2>
+                    <p class="fs-6">The graduation ceremony at <strong class="text-capitalize">siloam hospital college of health
                             sciences
                         </strong> is a joyous and memorable event that celebrates the accomplishments of
                         students who have successfully completed their studies. It is a formal occasion where graduates
@@ -93,7 +98,7 @@
                     </div>
 
                     <div class="col-md-6 p-4">
-                        <h2>Student Support.</h2>
+                        <h2 class="text-warning-emphasis">Student Support.</h2>
                         <p>The institution is committed to fostering a supportive and inclusive learning environment by
                             providing comprehensive Student Support Services (SSS) designed to promote the overall
                             well-being,

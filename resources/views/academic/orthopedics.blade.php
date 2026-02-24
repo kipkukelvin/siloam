@@ -1,5 +1,6 @@
 @extends('partials.layouts')
 @section('title', 'Orthopedics-&-Trauma-Medicine')
+@section('content')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative card bg-info mt-3 mb-3 text-white">
     <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
@@ -12,8 +13,8 @@
 </div>
 <div class="container card-body my-4">
     <div class="row">
-        <div class="col-12">
-            <div class="card border-info bg-light h-100 p-4 border-top-3">
+        <div class="col-11 mx-auto">
+            <div class="card border-0 border-top border-4 border-success bg-light h-100 p-4">
                 <h4 class="fw-bold mb-3">Overview</h4>
                 <p class="fs-6">
                     The Orthopedics & Trauma Medicine program at Siloam Medical, Technical and Commercial Training
@@ -31,15 +32,15 @@
 
         <!-- Column 1: Accreditation Body -->
         <div class="col-md-4">
-            <div class="card border-info h-100 card-hover">
+            <div class="card border h-100 card-hover">
                 <!-- Header -->
-                <div class="card-header bg-info text-white">
-                    <h5 class="mb-0"><i class="fa fa-award me-2"></i>Accreditation Body</h5>
+                <div class="card-header bg text-white">
+                    <h5 class="mb-0"><i class="fa fa-award me-2 text-warning"></i>Accreditation Body</h5>
                 </div>
                 <!-- Content -->
                 <div class="card-body">
                     <p class="fw-bold fs-4 mb-2">TVET Accredited</p>
-                    <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examining Body</p>
+                    <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-warning-emphasis"></i>Examining Body</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>TVET-CDAAC</li>
                     </ul>
@@ -49,14 +50,14 @@
 
         <!-- Column 2: Diploma -->
         <div class="col-md-4">
-            <div class="card border-info h-100 card-hover">
+            <div class="card border h-100 card-hover">
                 <!-- Header -->
-                <div class="card-header bg-info text-white">
-                    <h5 class="mb-0"><i class="fa fa-book me-2"></i>Diploma</h5>
+                <div class="card-header bg text-white">
+                    <h5 class="mb-0"><i class="fa fa-book me-2 text-warning"></i>Diploma</h5>
                 </div>
                 <!-- Content -->
                 <div class="card-body">
-                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
+                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>Entry Requiremets</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>KCSE Mean Grade C (Plain) or equivalent</li>
                         <li>English or Kiswahili C– and above</li>
@@ -69,14 +70,14 @@
 
         <!-- Column 3: Certificate -->
         <div class="col-md-4">
-            <div class="card border-info h-100 card-hover">
+            <div class="card border h-100 card-hover">
                 <!-- Header -->
-                <div class="card-header bg-info text-white">
-                    <h5 class="mb-0"><i class="fa fa-certificate me-2"></i>Certificate</h5>
+                <div class="card-header bg text-white">
+                    <h5 class="mb-0"><i class="fa fa-certificate me-2 text-warning"></i>Certificate</h5>
                 </div>
                 <!-- Content -->
                 <div class="card-body">
-                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
+                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>Entry Requiremets</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>KCSE Mean Grade D– or equivalent</li>
                         <li>English or Kiswahili D– and above</li>
@@ -92,7 +93,7 @@
 <!-- Choose Us -->
 <div class="container card-body my-4">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 mx-auto">
             <div class="card border-light bg-light h-100 p-4 border-top-3">
                 <h4 class="fw-bold mb-3">Why Choose Us!
                     <span class="d-block mt-1" style="height:3px; width:50px; background-color:#0dcaf0;"></span>
@@ -144,10 +145,10 @@
     </div>
 </div>
 <!-- Full-width column -->
-<div class="container card-body card-hover my-4">
+<div class="container card-body my-4">
     <div class="row">
-        <div class="col-12">
-            <div class="card border-info bg-light h-100 p-4">
+        <div class="col-10 mx-auto">
+            <div class="card border-white card-1 bg-light h-100 p-4">
                 <h4 class="fw-bold mb-3">Apply Now</h4>
                 <p class="fs-6">
                     Interested candidates can apply online or visit the admissions office for more details.
@@ -155,7 +156,7 @@
                 </p>
                 <div class="text-center">
                     <a href="{{ route('academic.application') }}"
-                        class="btn btn-outline-primary mt-3 px-4 py-3  w-auto d-inline-block rounded-pill fs-5">
+                        class="btn btn-outline-primary mt-3 px-3 py-2  w-auto d-inline-block rounded-pill fs-5">
                         <i class="fa fa-hand-pointer me-2"></i>Apply Now
                     </a>
                 </div>
@@ -163,3 +164,4 @@
         </div>
     </div>
 </div>
+@endsection

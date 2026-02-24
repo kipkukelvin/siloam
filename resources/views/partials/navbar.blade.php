@@ -2,25 +2,25 @@
 <div class="bg text-white fixed-top py-1" style="z-index:1100;">
     <marquee id="intakeMarquee"behavior="scroll" direction="left">
         January Intake Ongoing 🚀 —
-        <a href="{{ route('academic.programs') }}" class="btn btn-warning btn-sm mx-2"
+        <a href="{{ route('academic.application') }}" class="btn btn-warning btn-sm mx-2"
             style="font-weight: bold; border-radius: 20px;">
             Apply Now
         </a>
         — Limited slots — Enroll today!
     </marquee>
 </div>
-<div id="mainNavbar" class="container-fluid bg-w shadow-sm fixed-top font" style="top:8px; z-index:1000;">
+<div id="mainNavbar" class="container-fluid shadow-sm fixed-top font" style="top:8px; z-index:1000;">
 
     <div style="margin-top:30px;"></div>
-    <header class="d-flex justify-content-between align-items-center text-danger py-3 bg-opacity-50 hover-success">
+    <header class="d-flex justify-content-between align-items-center text-danger py-3 bg-opacity-50">
         <!-- Left side: Logo + Nav -->
-        <div class="d-flex align-items-center fw-light fs-6">
+        <div class="d-flex align-items-center">
             <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
-                <img src="{{ asset('assets/images/LOGO.png') }}" class="img-fluid me-2" alt="Logo"
+                <img src="{{ asset('assets/images/WEB.png') }}" class="img-fluid me-2" alt="Logo"
                     style="height: 55px; object-fit: contain;">
             </a>
 
-            <ul class="nav nav-pills fs-6">
+            <ul class="nav nav-pills">
 
                 <li class="nav-item text-uppercase"><a href="{{ route('school.admission') }}"
                         class="nav-link">Admission</a></li>
@@ -102,11 +102,11 @@
         </div>
 
         <!-- Right side: Staff | Student -->
-        <div class="fs-5 text-right">
+        <div class="nav-link text-right">
             <!-- <a href="{{ route('home') }}" class="text-decoration-none text-primary">Staff</a>
-      <span class="text-dark mx-2">|</span>
-      <a href="{{ route('student.login') }}" class="text-decoration-none text-primary">Student</a>
-    </div> -->
+      <span class="text-dark mx-2">|</span>-->
+      <a href="{{ route('school.earn-referral') }}" class="text-decoration-none text-bold text-uppercase text-warning-emphasis">referral</a>
+    </div> 
 
     </header>
 </div>
