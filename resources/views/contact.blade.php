@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="container box mt-5 mb-5">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mb-5">
 
         <h2 class="text-center text-primary-emphasis mb-3">Have anything to ask?</h2>
         <h3 class="text-center text-muted mb-4">Email us below.</h3>
 
         <div class="col-md-10 column">
-            <div class="card bg-light card-1 border-shadow">
+            <div class="card card-1 border-shadow">
                 <div class="card-body">
 
                     @if(session('success'))
@@ -56,7 +56,7 @@
                         </div>
 
                         <!-- Submit -->
-                        <button type="submit" class="btn btn-primary w-100">
+                        <button type="submit" class="btn btn-warning w-100">
                             Send Message
                         </button>
 

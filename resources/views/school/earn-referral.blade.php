@@ -123,7 +123,7 @@
         <div class="card shadow p-4">
             <h3 class="fw-bold mb-4 text-center">Submit a Referral</h3>
 
-            <form method="POST" action="#">
+            <form method="POST" action="{{ route('school.earn-referral.store') }}">
                 @csrf
 
                 <div class="row">

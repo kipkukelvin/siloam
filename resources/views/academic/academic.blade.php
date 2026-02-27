@@ -20,13 +20,13 @@
             </div>
             <div class="col-5">
                 <div class="p-3 border bg-white rounded">
-                    <a href="{{ route('academic.cna') }}" class=" text-capitalize text-decoration-none text-black"><i class="fa fa-stethoscope me-2"></i>Certified Nurse Assistant</a>
+                    <a href="{{ route('academic.cna') }}" class=" text-capitalize text-decoration-none text-black"><i class="fa fa-stethoscope me-2"></i>Certified Nursing Assistant</a>
     
                 </div>
             </div>
             <div class="col-5">
                 <div class="p-3 border bg-white rounded">
-                    <a href="{{ route('academic.nursing') }}" class=" text-capitalize text-decoration-none text-black"> <i class="fa fa-user-nurse me-2"></i>Nursing</a>
+                    <a href="{{ route('academic.nursing') }}" class=" text-capitalize text-decoration-none text-black"> <i class="fa fa-user-nurse me-2"></i>Nursing (KCRHN)</a>
                 </div>
             </div>
             <div class="col-5">

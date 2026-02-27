@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @section('content')
     <div class="position-relative pt-4">
-        <img src="{{ asset('assets/images/TEAM.jpg') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
+        <img src="{{ asset('assets/images/TEAM.avif') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
             alt="">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
         <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
