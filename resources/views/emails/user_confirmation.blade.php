@@ -1,6 +1,6 @@
 <p>Dear {{ $name }},</p>
 
-<p>Thank you for applying to <strong>Siloam College of Health Sciences</strong>.</p>
+<p>Thank you for applying to <strong>Siloam Medical & Technical College</strong>.</p>
 
 <p><strong>Course Applied For:</strong> {{ $course }}</p>
 

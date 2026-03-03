@@ -5,12 +5,12 @@
     <div class="position-relative">
     <img src="{{ asset('assets/images/cna.jpg') }}"
          class="img-fluid w-100"
-         style="height:500px; object-fit:cover;"
+         style="height:350px; object-fit:cover;"
          alt="">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark"
      style="opacity: 0.75;"></div>
 <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
-    <h1 class="hero-title fw-bold  text-uppercase">Certified <br> Nursing <br> Assistant</h1>
+    <h1 class="hero-title fw-bold text-center fst-italic text-uppercase">Certified <br> Nursing <br> Assistant</h1>
 </div>
 
 </div>
@@ -41,7 +41,7 @@
         <!-- Content -->
         <div class="card-body">
           <p class="fw-bold fs-4 mb-2">TVET Accredited</p>
-          <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-warning"></i>Examining Body</p>
+          <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-warning-emphasis"></i>Examining Body</p>
           <ul class="list-unstyled fs-6 mb-0">
             <li>TVET-CDAAC</li>
           </ul> 
@@ -57,7 +57,7 @@
         </div>
         <!-- Content -->
         <div class="card-body">
-           <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-warning"></i>Entry Requiremets</p>
+           <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>Entry Requiremets</p>
           <ul class="list-unstyled fs-6 mb-0">
             <li>KCSE Mean Grade D (Plain) or equivalent</li>
           </ul>
@@ -73,24 +73,24 @@
     <div class="col-12">
       <div class="card border-light bg-light h-100 p-4 border-top-3">
         <h4 class="fw-bold mb-3">Why Choose Us!
-            <span class="d-block mt-1" style="height:3px; width:50px; background-color:#0dcaf0;"></span>
+            <span class="d-block mt-1" style="height:3px; width:50px; background-color:#d6b10b;"></span>
             </h4>
     <div class="row">
     <!-- Column 1 -->
     <div class="col-md-6">
       <ul class="list-unstyled fs-6">
         <li class="mb-3">
-          <i class="fa fa-hospital me-2 text-info"></i>
+          <i class="fa fa-hospital me-2 text-warning-emphasis"></i>
           <strong>Guaranteed Hospital Placement</strong>
           <p class="mb-0 small text-muted">We ensure all students get practical experience in real hospital settings.</p>
         </li>
         <li class="mb-3">
-          <i class="fa fa-credit-card me-2 text-info"></i>
+          <i class="fa fa-credit-card me-2 text-warning-emphasis"></i>
           <strong>Flexible Payment Plans</strong>
           <p class="mb-0 small text-muted ms-4">Affordable options tailored to make your education stress-free.</p>
         </li>
         <li class="mb-3">
-          <i class="fa fa-desktop me-2 text-info"></i>
+          <i class="fa fa-desktop me-2 text-warning-emphasis"></i>
           <strong>Digital Literacy Skills</strong>
           <p class="mb-0 small text-muted ms-4">Essential skills for mordern workplaces.</p>
         </li>
@@ -101,17 +101,17 @@
     <div class="col-md-6">
       <ul class="list-unstyled fs-6">
         <li class="mb-3">
-          <i class="fa fa-book me-2 text-info"></i>
+          <i class="fa fa-book me-2 text-warning-emphasis"></i>
           <strong>Relevant Learning</strong>
           <p class="mb-0 small text-muted ms-4">Course content is up-to-date and aligned with industry needs.</p>
         </li>
         <li class="mb-3">
-          <i class="fa fa-user-graduate me-2 text-info"></i>
+          <i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>
           <strong>Learn from Experts</strong>
           <p class="mb-0 small text-muted ms-4">Experienced instructors guide you through practical and theoretical knowledge.</p>
         </li> 
                                             <li class="mb-3">
-                                        <i class="fa fa-certificate me-2 text-info"></i>
+                                        <i class="fa fa-certificate me-2 text-warning-emphasis"></i>
                                         <strong>Free Computer Certificate</strong>
                                         <p class="mb-0 small text-muted ms-4">
                                             All students receive complimentary computer training with certification.
@@ -135,7 +135,7 @@
           Please ensure that all required documents are ready before submission.
         </p>
         <div class="text-center">
-        <a href="{{ route('academic.application') }}" class="btn btn-outline-success mt-3 px-4 fs-5">Apply Now</a>
+        <a href="{{ route('academic.application') }}" class="btn btn-outline-success mt-3 px-4 fs-5"><i class="fa fa-paper-plane me-2"></i>Apply Now</a>
       </div>
       </div>
     </div>

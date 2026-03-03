@@ -2,12 +2,12 @@
 @section('title', 'Orthopedics-&-Trauma-Medicine')
 @section('content')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative card bg-info mt-3 mb-3 text-white">
+<div class="position-relative card mt-3 mb-3 text-white">
     <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
         alt="">
 
     <div class="position-absolute top-50 start-50 translate-middle 
-              fs-1 fw-bold text-start text-dark">
+              fs-1 fw-bold text-black">
         Orthopedics And Trauma Medicine
     </div>
 </div>
@@ -96,26 +96,26 @@
         <div class="col-12 mx-auto">
             <div class="card border-light bg-light h-100 p-4 border-top-3">
                 <h4 class="fw-bold mb-3">Why Choose Us!
-                    <span class="d-block mt-1" style="height:3px; width:50px; background-color:#0dcaf0;"></span>
+                    <span class="d-block mt-1" style="height:3px; width:100px; background-color: rgb(122, 105, 6);"></span>
                 </h4>
                 <div class="row">
                     <!-- Column 1 -->
                     <div class="col-md-6">
                         <ul class="list-unstyled fs-6">
                             <li class="mb-3">
-                                <i class="fa fa-hospital me-2 text-info"></i>
+                                <i class="fa fa-hospital me-2 text-warning-emphasis"></i>
                                 <strong>Guaranteed Hospital Placement</strong>
                                 <p class="mb-0 small text-muted">We ensure all students get practical experience in real
                                     hospital settings.</p>
                             </li>
                             <li class="mb-3">
-                                <i class="fa fa-credit-card me-2 text-info"></i>
+                                <i class="fa fa-credit-card me-2 text-warning-emphasis"></i>
                                 <strong>Flexible Payment Plans</strong>
                                 <p class="mb-0 small text-muted ms-4">Affordable options tailored to make your education
                                     stress-free.</p>
                             </li>
                             <li class="mb-3">
-                                <i class="fa fa-desktop me-2 text-info"></i>
+                                <i class="fa fa-desktop me-2 text-warning-emphasis"></i>
                                 <strong>Digital Literacy Skills</strong>
                                 <p class="mb-0 small text-muted ms-4">Essential skills for mordern workplaces.</p>
                             </li>
@@ -126,13 +126,13 @@
                     <div class="col-md-6">
                         <ul class="list-unstyled fs-6">
                             <li class="mb-3">
-                                <i class="fa fa-book me-2 text-info"></i>
+                                <i class="fa fa-book me-2 text-warning-emphasis"></i>
                                 <strong>Relevant Learning</strong>
                                 <p class="mb-0 small text-muted ms-4">Course content is up-to-date and aligned with
                                     industry needs.</p>
                             </li>
                             <li class="mb-3">
-                                <i class="fa fa-user-graduate me-2 text-info"></i>
+                                <i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>
                                 <strong>Learn from Experts</strong>
                                 <p class="mb-0 small text-muted ms-4">Experienced instructors guide you through
                                     practical and theoretical knowledge.</p>
@@ -147,7 +147,7 @@
 <!-- Full-width column -->
 <div class="container card-body my-4">
     <div class="row">
-        <div class="col-10 mx-auto">
+        <div class="col-md-12 mx-auto">
             <div class="card border-white card-1 bg-light h-100 p-4">
                 <h4 class="fw-bold mb-3">Apply Now</h4>
                 <p class="fs-6">
@@ -156,7 +156,7 @@
                 </p>
                 <div class="text-center">
                     <a href="{{ route('academic.application') }}"
-                        class="btn btn-outline-primary mt-3 px-3 py-2  w-auto d-inline-block rounded-pill fs-5">
+                        class="btn btn-outline-success mt-3 px-3 py-2  w-auto d-inline-block rounded-pill fs-5">
                         <i class="fa fa-hand-pointer me-2"></i>Apply Now
                     </a>
                 </div>

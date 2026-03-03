@@ -44,7 +44,7 @@
                     <img src="{{ asset('assets/images/Nursing.jpg') }}" class="img-fluid rounded-top w-100">
                     <h5 class="fw-bold p-2 mb-1 text-center">
                         <a class="text-decoration-none text-dark">
-                            Nursing
+                            Nursing (KRCHN)
                     </h5>
                     <p class="text-muted p-2 mb-0">
                         Provides essential nursing knowledge and practical skills including patient care, basic anatomy and

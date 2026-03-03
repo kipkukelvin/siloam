@@ -195,8 +195,8 @@
 
 .card-1 {
   border: none;
-  border-radius: 10px;
-  box-shadow: 0 20px 50px rgba(51, 255, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(70, 68, 2, 0.1);
 }
 
 .card-hover {
@@ -205,7 +205,7 @@
 
 .card-hover:hover {
   transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 10px 20px rgba(28, 2, 88, 0.2);
+  box-shadow: 0 20px 50px rgba(28, 2, 88, 0.2);
 }
 
 .img-fluid {
@@ -384,4 +384,151 @@
 
 .social-icon i {
   font-size: 16px;
+}
+
+.form-wrapper {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-icon {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  /* 🔥 IMPORTANT */
+}
+
+.form-icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 60%;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+}
+
+.scrolling-row {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrolling-images {
+  display: flex;
+  gap: 1rem;
+  animation: scroll-left 25s linear infinite;
+}
+
+.scrolling-images:hover {
+  animation-play-state: paused;
+}
+
+.scroll-item {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.scroll-item img {
+  height: 200px;
+  /* adjust for your design */
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+/* Caption overlay */
+.scroll-item .caption {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* Scrolling animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive height */
+@media (max-width: 768px) {
+  .scroll-item img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .scroll-item img {
+    height: 120px;
+  }
+}
+
+.form-label::after {
+  content: " *";
+  color: red;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  /* start LOWER */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Visible state (when scrolled into view) */
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.border-darkslate {
+  border: 2px solid #483D8B !important;
+  ;
 }

@@ -5,5 +5,5 @@
 <p><strong>Phone:</strong> {{ $app->phone ?? 'N/A' }}</p>
 
 <p><strong>Course Applied For:</strong> {{ $app->course }}</p>
-<p>Attached are the applicant’s ID and academic certificates.</p>
+<p>Attached are the academic certificate(s).</p>
 

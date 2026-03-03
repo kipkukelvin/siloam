@@ -42,7 +42,7 @@
                 <div class="card-body">
                     <p class="fw-bold fs-4 mb-2">Licensing Body</p>
                     <p class="fw-bold fs-4 mb-2">KHPOA Accredited</p>
-                    <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examining Body</p>
+                    <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-warning-emphasis"></i>Examining Body</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>TVET-CDAAC</li>
                     </ul>
@@ -59,7 +59,7 @@
                 </div>
                 <!-- Content -->
                 <div class="card-body">
-                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
+                    <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>Entry Requiremets</p>
                     <ul class="list-unstyled fs-6 mb-0">
                         <li>KCSE Mean Grade C (Plain) or equivalent</li>
                         <li>English or Kiswahili C (Plain) and above</li>
@@ -77,26 +77,26 @@
         <div class="col-12">
             <div class="card border-light bg-light h-100 p-4 border-top-3">
                 <h4 class="fw-bold mb-3">Why Choose Us!
-                    <span class="d-block mt-1" style="height:3px; width:50px; background-color:#0dcaf0;"></span>
+                    <span class="d-block mt-1" style="height:3px; width:50px; background-color:gold;"></span>
                 </h4>
                 <div class="row">
                     <!-- Column 1 -->
                     <div class="col-md-6">
                         <ul class="list-unstyled fs-6">
                             <li class="mb-3">
-                                <i class="fa fa-hospital me-2 text-info"></i>
+                                <i class="fa fa-hospital me-2 text-warning-emphasis"></i>
                                 <strong>Guaranteed Hospital Placement</strong>
                                 <p class="mb-0 small text-muted">We ensure all students get practical experience in real
                                     hospital settings.</p>
                             </li>
                             <li class="mb-3">
-                                <i class="fa fa-credit-card me-2 text-info"></i>
+                                <i class="fa fa-credit-card me-2 text-warning-emphasis"></i>
                                 <strong>Flexible Payment Plans</strong>
                                 <p class="mb-0 small text-muted ms-4">Affordable options tailored to make your education
                                     stress-free.</p>
                             </li>
                             <li class="mb-3">
-                                <i class="fa fa-desktop me-2 text-info"></i>
+                                <i class="fa fa-desktop me-2 text-warning-emphasis"></i>
                                 <strong>Digital Literacy Skills</strong>
                                 <p class="mb-0 small text-muted ms-4">Essential skills for mordern workplaces.</p>
                             </li>
@@ -107,13 +107,13 @@
                     <div class="col-md-6">
                         <ul class="list-unstyled fs-6">
                             <li class="mb-3">
-                                <i class="fa fa-book me-2 text-info"></i>
+                                <i class="fa fa-book me-2 text-warning-emphasis"></i>
                                 <strong>Relevant Learning</strong>
                                 <p class="mb-0 small text-muted ms-4">Course content is up-to-date and aligned with
                                     industry needs.</p>
                             </li>
                             <li class="mb-3">
-                                <i class="fa fa-user-graduate me-2 text-info"></i>
+                                <i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>
                                 <strong>Learn from Experts</strong>
                                 <p class="mb-0 small text-muted ms-4">Experienced instructors guide you through
                                     practical and theoretical knowledge.</p>
@@ -128,7 +128,7 @@
 <!-- Full-width column -->
 <div class="container card-body card-hover my-4">
     <div class="row">
-        <div class="col-10 mx-auto">
+        <div class="col-md-12 mx-auto">
             <div class="card border-0 border-bottom border-4 border-dark bg-light h-100 p-4">
                 <h4 class="fw-bold mb-3">Apply Now</h4>
                 <p class="fs-6">

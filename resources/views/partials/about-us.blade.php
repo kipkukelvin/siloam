@@ -1,4 +1,4 @@
- <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+ <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
  <div class="text-monospace pt-3 font fw-bold fs-4 fade-up">
      <h1 class=" text-center text-black mt-4 text-uppercase mb-2">
             About SMTC

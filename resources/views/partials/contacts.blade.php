@@ -21,7 +21,7 @@
             <table class="table table-borderless text-center" style="table-layout: fixed; width: 100%;">
 
                 <th class="bg-warning text-white">Contacts</th>
-                <tr>
+                <tr class="fw-bold font fst-italic">
                     <th>Main Office</th>
                     <th>Academics</th>
                     <th>Social Links</th>
@@ -38,9 +38,12 @@
                         </td>
                         <td>
                             <p><strong>Registrar</strong></p>
-                            <p><i class="fas fa-envelope me-2"></i><strong>Email</strong></p>
+                            <p><i class="fas fa-envelope me-2 mb-2"></i><strong>Email</strong><br>
+                            info.siloamregistrar@gmail.com</p>
                             <p></i><strong>Admission</strong></p>
-                            <p><i class="fas fa-envelope me-2"></i><strong>Email</strong></p>
+                            <p><i class="fas fa-envelope me-2 mb-2"></i><strong>Email</strong><br>
+                                info.siloamcollegeofhscs@gmail.com</p>
+                            <p><i class="fas fa-phone me-2 mb-2"></i><strong>Phone:</strong> <br>+254 701 444 333</p>
                         </td>
                         <td>
                             <ul class="list-unstyled text-primary">

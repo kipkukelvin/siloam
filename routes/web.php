@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AcademicController;
 use App\Http\Controllers\SchoolController;
+use App\Http\Controllers\ReferralController;
 use App\Http\Controllers\ApplicationController;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
@@ -34,7 +35,10 @@ Route::get('/school/team', [HomeController::class, 'team'])->name('school.team')
 Route::get('/admin/payment', [HomeController::class, 'payment'])->name('admin.payment');
 Route::get('/partials/contacts', [SchoolController::class, 'contacts'])->name('partials.contacts');
 Route::get('/school/career', [SchoolController::class, 'career'])->name('school.career');
-Route::view('/earn-referral', [HomeController::class, 'school.earn-referral'])->name('school.earn-referral');
+Route::get('/school/earn-referral', [ReferralController::class, 'referral'])
+    ->name('school.earn-referral');
+Route::post('/school/earn-referral', [ReferralController::class, 'store'])
+    ->name('school.earn-referral.store');
 
 // show form
 Route::get('/academic/application', [ApplicationController::class, 'create'])->name('academic.application');

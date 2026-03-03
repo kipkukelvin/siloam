@@ -3,11 +3,11 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @section('content')
     <div class="position-relative">
-        <img src="{{ asset('assets/images/Computer.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
+        <img src="{{ asset('assets/images/Computer.jpg') }}" class="img-fluid w-100" style="height:350px; object-fit:cover;"
             alt="">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
         <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
-            <h1 class="hero-title fw-bold  text-uppercase">Computer <br> Packages</h1>
+            <h1 class="hero-title fw-bold fst-italic text-uppercase">Computer <br> Packages</h1>
         </div>
 
     </div>
@@ -31,15 +31,15 @@
 
                 <!-- Column 1: Accreditation Body -->
                 <div class="col-md-6">
-                    <div class="card border-info h-100 card-hover">
+                    <div class="card h-100 card-hover">
                         <!-- Header -->
-                        <div class="card-header bg-info text-white">
+                        <div class="card-header bg text-white">
                             <h5 class="mb-0"><i class="fa fa-award me-2"></i>Accreditation Body</h5>
                         </div>
                         <!-- Content -->
                         <div class="card-body">
                             <p class="fw-bold fs-4 mb-2">Internal Quality Assurance Committee</p>
-                            <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-info"></i>Examining Body</p>
+                            <p class="fs-5 fw-bold"><i class="fa fa-graduation-cap me-2 text-warning-emphasis"></i>Examining Body</p>
                             <ul class="list-unstyled fs-6 mb-0">
                                 <li>Siloam Medical & Technical College</li>
                             </ul>
@@ -47,30 +47,30 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card border-info h-100 card-hover">
+                    <div class="card h-100 card-hover">
                         <!-- Header -->
-                        <div class="card-header bg-info text-white">
+                        <div class="card-header bg text-white">
                             <h5 class="mb-0"><i class="fa fa-book me-2"></i>Computer Skills</h5>
                         </div>
                         <!-- Content -->
                         <div class="card-body">
-                            <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-info"></i>Entry Requiremets</p>
+                            <p class="fw-bold fs-5"><i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>Entry Requiremets</p>
                             <ul class="list-unstyled fs-6 mb-0">
                                 <li class="mb-3">
-                                    <i class="fa fa-book-open me-2 text-info"></i>
+                                    <i class="fa fa-book-open me-2 text-warning-emphasis"></i>
                                     <strong>Educational Level</strong>
                                     <p class="mb-0 small text-muted ms-4">A basic understanding of English (as most software
                                         is in English) is essential.</p>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="fa fa-id-card me-2 text-info"></i>
+                                    <i class="fa fa-id-card me-2 text-warning-emphasis"></i>
                                     <strong>Age</strong>
                                     <p class="mb-0 small text-muted ms-4">Students should be at least 16 years old, though
                                         there is no upper age limit for those interested in improving their computer skills.
                                     </p>
                                 </li>
                                 <li class="mb-3">
-                                    <i class="fa fa-edit me-2 text-info"></i>
+                                    <i class="fa fa-edit me-2 text-warning-emphasis"></i>
                                     <strong>Motivation and Willingness to Learn</strong>
                                     <p class="mb-0 small text-muted ms-4">A strong desire to acquire essential computer
                                         skills for personal, academic, or professional purposes.</p>
@@ -87,25 +87,25 @@
                 <div class="col-12">
                     <div class="card border-light bg-light h-100 p-4 border-top-3">
                         <h4 class="fw-bold mb-3">Why Choose Us!
-                            <span class="d-block mt-1" style="height:3px; width:50px; background-color:#0dcaf0;"></span>
+                            <span class="d-block mt-1" style="height:3px; width:150px; background-color:gold;"></span>
                         </h4>
                         <div class="row">
                             <!-- Column 1 -->
                             <div class="col-md-6">
                                 <ul class="list-unstyled fs-6">
                                     <li class="mb-3">
-                                        <i class="fa fa-credit-card me-2 text-info"></i>
+                                        <i class="fa fa-credit-card me-2 text-warning-emphasis"></i>
                                         <strong>Flexible Payment Plans</strong>
                                         <p class="mb-0 small text-muted ms-4">Affordable options tailored to make your
                                             education stress-free.</p>
                                     </li>
                                     <li class="mb-3">
-                                        <i class="fa fa-desktop me-2 text-info"></i>
+                                        <i class="fa fa-desktop me-2 text-warning-emphasis"></i>
                                         <strong>Digital Literacy Skills</strong>
                                         <p class="mb-0 small text-muted ms-4">Essential skills for modern workplaces.</p>
                                     </li>
                                     <li class="mb-3">
-                                        <i class="fa fa-certificate me-2 text-info"></i>
+                                        <i class="fa fa-certificate me-2 text-warning-emphasis"></i>
                                         <strong>Free Computer Certificate</strong>
                                         <p class="mb-0 small text-muted ms-4">
                                             All students receive complimentary computer training with certification.
@@ -118,13 +118,13 @@
                             <div class="col-md-6">
                                 <ul class="list-unstyled fs-6">
                                     <li class="mb-3">
-                                        <i class="fa fa-book me-2 text-info"></i>
+                                        <i class="fa fa-book me-2 text-warning-emphasis"></i>
                                         <strong>Relevant Learning</strong>
                                         <p class="mb-0 small text-muted ms-4">Course content is up-to-date and aligned with
                                             industry needs.</p>
                                     </li>
                                     <li class="mb-3">
-                                        <i class="fa fa-user-graduate me-2 text-info"></i>
+                                        <i class="fa fa-user-graduate me-2 text-warning-emphasis"></i>
                                         <strong>Learn from Experts</strong>
                                         <p class="mb-0 small text-muted ms-4">Experienced instructors guide you through
                                             practical and theoretical knowledge.</p>
@@ -140,7 +140,7 @@
         <!-- Full-width column -->
         <div class="container card-body card-1 my-4">
             <div class="row ">
-                <div class="col-10 mx-auto">
+                <div class="col-md-12">
                     <div class="card border-white bg-light h-100 p-4">
                         <h4 class="fw-bold mb-3">Join Us Today</h4>
                         <p class="fs-6">
@@ -149,7 +149,7 @@
                         </p>
                         <div class="text-center">
                             <a href="{{ route('academic.application') }}"
-                                class="btn btn-outline-warning mt-3 px-3 py-2 w-auto d-inline-block rounded-pill fs-4">Apply
+                                class="btn btn-lg btn-outline-warning mt-3 px-3 py-2 w-auto d-inline-block rounded-pill fs-4">Apply
                                 Now</a>
                         </div>
                     </div>

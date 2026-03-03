@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="bg text-white fixed-top py-1" style="z-index:1100;">
     <marquee id="intakeMarquee"behavior="scroll" direction="left">
-        January Intake Ongoing 🚀 —
+        Admissions Open for 2026 🎓 --
         <a href="{{ route('academic.application') }}" class="btn btn-warning btn-sm mx-2"
             style="font-weight: bold; border-radius: 20px;">
             Apply Now
         </a>
-        — Limited slots — Enroll today!
+    -- Enroll Today -- Secure Your Future! 🚀
     </marquee>
 </div>
 <div id="mainNavbar" class="container-fluid shadow-sm fixed-top font" style="top:8px; z-index:1000;">

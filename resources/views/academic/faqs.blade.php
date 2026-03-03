@@ -8,7 +8,7 @@
     Frequently Asked Questions.
   </h2>
 </div>
-<div class="container my-2">
+<div class="container my-2 mb-4">
     <div class="accordion" id="faqAccordion">
 
         <!-- FAQ 1 -->
@@ -72,7 +72,7 @@
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour"
                  data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    You can reach us at <a href="{{ route('partials.contacts') }}">our contact page
+                    You can reach us at <a href="{{ route('partials.contacts') }}"><strong> our contact page </strong>
                         </a> or visit the admissions office on campus.
                 </div>
             </div>
@@ -89,7 +89,7 @@
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive"
                  data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Selected programmes offer blended learning (online + physical). Contact the department for details.
+                    Selected programmes offer blended learning <strong>(online + physical)</strong>. Contact the department for details.
                 </div>
             </div>
         </div>

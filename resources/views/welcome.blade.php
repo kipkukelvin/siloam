@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <link rel="stylesheet" href="{{asset('bt/css/bootstrap.min.css')}}">
-<link rel="stylesheet" href="{{asset('bt/css/bootstrap-utilities.min.css')}}">
 <div class="hero-wrapper position-relative">
     <!-- Carousel -->
     <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
