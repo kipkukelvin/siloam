@@ -59,6 +59,52 @@
 
 </div>
 
+<!-- Accessibility Floating Button -->
+<button id="a11yToggle" class="a11y-toggle" aria-label="Accessibility Menu">
+    ♿
+</button>
 
+<!-- Accessibility Panel -->
+<div id="a11yPanel" class="a11y-panel">
+
+    <h6 class="fw-bold mb-3">Accessibility</h6>
+
+    <!-- Font Size -->
+    <div class="mb-3">
+        <label class="form-label small">Text Size</label>
+        <div class="d-flex gap-2">
+            <button class="btn btn-sm btn-outline-primary w-50"
+                onclick="changeFont(1.1)">A+</button>
+            <button class="btn btn-sm btn-outline-primary w-50"
+                onclick="changeFont(0.9)">A-</button>
+        </div>
+    </div>
+
+    <!-- Dark Mode -->
+    <div class="mb-3">
+        <button class="btn btn-sm btn-dark w-100"
+            onclick="toggleDarkMode()">
+            🌙 Dark Mode
+        </button>
+    </div>
+
+    <!-- High Contrast -->
+    <div class="mb-3">
+        <button class="btn btn-sm btn-warning w-100"
+            onclick="toggleContrast()">
+            🎨 High Contrast
+        </button>
+    </div>
+
+    <!-- Language -->
+    <div>
+        <select class="form-select form-select-sm"
+            onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="sw">Kiswahili</option>
+        </select>
+    </div>
+
+</div>
 </body>
 </html>

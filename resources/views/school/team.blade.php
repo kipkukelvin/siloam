@@ -2,11 +2,7 @@
 @section('title', 'Siloam-Team')
 
 @section('content')
-
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
-    <!-- HERO SECTION -->
-    <div class="position-relative">
+    <div class="position-relative pt-4">
         <img src="{{ asset('assets/images/TEAM.avif') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
             alt="">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
@@ -353,7 +349,7 @@
                     I work closely with the school registrar and clinical instructors to coordinate
                     placements and academic progression. I am committed to evidence-based practice,
                     professional development, and excellence in perioperative education, and I highly
-                    recommend Siloam Hospital College as a top institution for health sciences training.
+                    recommend Siloam Medical & Technical College as a top institution for health sciences training.
                 </p>
                 </p>
             </div>
@@ -373,7 +369,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="profilePrincipal" tabindex="-1">
+    <div class="modal fade" id="profileMagdaline" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content p-4 text-center">
                 <button class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"></button>
@@ -410,7 +406,7 @@
                 <button class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal"></button>
                 <h5 class="fw-bold">Joan Cheptoo</h5>
                 <p class="text-muted">Librarian</p>
-                <p> I am a dedicated librarian at Siloam College, committed to supporting
+                <p> I am a dedicated librarian at Siloam Medical & Technical College, committed to supporting
                     teaching, learning, and research within the academic community. My role involves
                     organizing and managing library resources to ensure easy access to accurate and
                     relevant information for students and staff. I assist users in developing research
