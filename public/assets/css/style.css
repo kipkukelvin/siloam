@@ -371,7 +371,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgba(243, 210, 20, 0.705);
+  background-color: gold;
   color: white;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -379,7 +379,7 @@
 
 .social-icon:hover {
   background-color: white;
-  color: rgba(229, 255, 0, 0.705);
+  color: #0b236b;
 }
 
 .social-icon i {

@@ -17,8 +17,8 @@ return new class extends Migration
              $table->string('email');
              $table->string('phone');
              $table->string('course');
-             $table->string('id_scan');
-             $table->string('academic_certificates');
+             $table->string('education_level')->nullable();
+             $table->string('kcse_grade')->nullable();
              $table->string('status')->default('Pending');
              $table->timestamps();
              

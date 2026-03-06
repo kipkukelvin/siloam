@@ -37,36 +37,30 @@ class ApplicationController extends Controller
             'email' => 'required|email',
             'phone' => 'required|string|max:20',
             'course' => 'required|exists:courses,id',
-            'id_scan' => 'required|file|mimes:pdf,jpg,png,jpeg|max:2048',
-            'academic_certificates' => 'required|file|mimes:pdf,jpg,png,jpeg|max:2048'
+            'education_level' => 'required',
+            'kcse_grade' => 'nullable'
         ]);
-
-        // Save the file
-        $idScanPath = $request->file('id_scan')->store('applications/id_scans', 'public');
-        $certPath = $request->file('academic_certificates')->store('applications/certificates', 'public');
 
         // You can save to DB here 
        $application = Application::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'phone' => $data['phone'],
-            'course' => $data['course'],
-            'id_scan' => $idScanPath,
-            'academic_certificates' => $certPath,
+            'course_id' => $data['course'],
+            'education_level' => $data['education_level'],
+            'kcse_grade' => $data['kcse_grade'],
         ]);
-       $application->load('course'); 
-       
-         Mail::send('emails.admission', [
+          $application->load('course'); 
+         
+          Mail::send('emails.admission', [ 
             'app' => $application
-        ], function ($message) use ($application, $idScanPath, $certPath) {
+        ], function ($message) {
             $message->to('info.siloamict@gmail.com')
-                    ->subject('New Course Application')
-                    ->attach(storage_path('app/public/' . $idScanPath))
-                    ->attach(storage_path('app/public/' . $certPath));
+                    ->subject('New Course Application');
         });
            Mail::send('emails.user_confirmation', [
             'name' => $application->name,
-            'course' => $application->course
+            'course' => optional($application->course)->name ?? 'N/A',
         ], function ($message) use ($application) {
             $message->to($application->email)
                     ->subject('Application Received');

@@ -127,37 +127,41 @@
                 @csrf
 
                 <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label>Your Full Name</label>
-                        <input type="text" class="form-control" required>
-                    </div>
+<div class="col-md-6 mb-3">
+<label>Your Full Name</label>
+<input type="text" name="referrer_name" class="form-control" required>
+</div>
 
-                    <div class="col-md-6 mb-3">
-                        <label>Your Phone Number</label>
-                        <input type="tel" class="form-control" required>
-                    </div>
+<div class="col-md-6 mb-3">
+<label>Your Phone Number</label>
+<input type="tel" name="referrer_phone" class="form-control" required>
+</div>
 
-                    <div class="col-md-6 mb-3">
-                        <label>Student Full Name</label>
-                        <input type="text" class="form-control" required>
-                    </div>
+<div class="col-md-6 mb-3">
+<label>Student Full Name</label>
+<input type="text" name="student_name" class="form-control" required>
+</div>
 
-                    <div class="col-md-6 mb-3">
-                        <label>Student Phone Number</label>
-                        <input type="tel" class="form-control" required>
-                    </div>
+<div class="col-md-6 mb-3">
+<label>Student Phone Number</label>
+<input type="tel" name="student_phone" class="form-control" required>
+</div>
 
-                    <div class="col-md-12 mb-3">
-                        <label>Preferred Course</label>
-                        <select class="form-select">
-                            <option>Select Course</option>
-                            <option>Nursing</option>
-                            <option>Certified Nursing Assistant</option>
-                            <option>Perioperative Theatre Technology</option>
-                            <option>Orthopedics & Trauma Medicine</option>
-                            <option>Information Technology</option>
-                        </select>
-                    </div>
+
+<div class="col-md-12 mb-3">
+    <label>Preferred Course</label>
+    <select name="course_id" class="form-select" required>
+        <option value="">Select Course</option>
+
+        @foreach($courses as $course)
+            <option value="{{ $course->id }}">
+                {{ $course->name }} ({{ $course->level }})
+            </option>
+        @endforeach
+
+    </select>
+</div>
+
                 </div>
 
                 <div class="text-center">

@@ -65,13 +65,38 @@
                     @endforeach
                 </select>
 
-                <!-- ID Upload -->
-                <label class="form-label mt-3">Upload ID</label>
-                <input type="file" name="id_scan" class="form-control" required>
+<label class="form-label mt-3">Level of Education</label>
+<select name="education_level" class="form-select" onchange="toggleGrade()" required>
+    <option value="">-- Select Level --</option>
+    <option value="kcse">KCSE</option>
+    <option value="kcpe">KCPE</option>
+    <option value="certificate">Certificate</option>
+</select>
 
-                <!-- Certificates Upload -->
-                <label class="form-label mt-3">Academic Certificates</label>
-                <input type="file" name="academic_certificates" class="form-control" required>
+<!-- KCSE Grade (Hidden Initially) -->
+<div id="kcse_grade_div" style="display:none;">
+    <label class="form-label mt-3">KCSE Mean Grade</label>
+    <select name="kcse_grade" class="form-select">
+        <option value="">-- Select Grade --</option>
+        <option>A</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B</option>
+        <option>B-</option>
+        <option>C+</option>
+        <option>C</option>
+        <option>C-</option>
+        <option>D+</option>
+        <option>D</option>
+        <option>D-</option>
+    </select>
+</div>
+<div class="form-check mt-3">
+    <input class="form-check-input" type="checkbox" name="confirm_documents" required>
+    <label class="form-check-label">
+        I confirm that I will present my original academic documents during admission.
+    </label>
+</div>
 
                 <!-- Submit Button -->
                 <button class="btn btn-success w-100 mt-4" type="submit">

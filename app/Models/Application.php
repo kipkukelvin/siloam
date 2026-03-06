@@ -11,13 +11,13 @@ class Application extends Model
         'name',
         'email',
         'phone',  
-        'course',
-        'id_scan',
-        'academic_certificates',
+        'course_id',
+        'education_level',
+        'kcse_grade', 
         'status',
     ];
        public function course()
     {
-         return $this->belongsTo(Course::class, 'course');
+         return $this->belongsTo(Course::class);
     }
 }

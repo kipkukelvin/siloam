@@ -91,30 +91,13 @@ window.addEventListener("load", function () {
     }, 1500);
 });
 
-const toggleBtn = document.getElementById("a11yToggle");
-const panel = document.getElementById("a11yPanel");
+function toggleGrade() {
+    let education = document.querySelector('[name="education_level"]').value;
+    let kcseDiv = document.getElementById("kcse_grade_div");
 
-toggleBtn.addEventListener("click", () => {
-    panel.style.display =
-        panel.style.display === "block" ? "none" : "block";
-});
-
-// Font Size Control
-function changeFont(scale) {
-    document.body.style.fontSize = (16 * scale) + "px";
-}
-
-// Dark Mode
-function toggleDarkMode() {
-    document.body.classList.toggle("dark-mode");
-}
-
-// High Contrast
-function toggleContrast() {
-    document.body.classList.toggle("high-contrast");
-}
-
-// Language (Laravel Ready)
-function changeLanguage(lang) {
-    window.location.href = "/lang/" + lang;
+    if (education === "kcse") {
+        kcseDiv.style.display = "block";
+    } else {
+        kcseDiv.style.display = "none";
+    }
 }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Course;
 use App\Models\Referral;
+use Illuminate\Support\Facades\Mail;
 
 class ReferralController extends Controller
 {
@@ -18,16 +19,24 @@ class ReferralController extends Controller
     // Store referral
     public function store(Request $request)
     {
-        $validated = $request->validate([
-            'referrer_name' => 'required|string|max:255',
-            'referrer_phone' => 'required|string|max:20',
-            'student_name' => 'required|string|max:255',
-            'student_phone' => 'required|string|max:20',
-            'course_id' => 'required|exists:courses,id',
-        ]);
+           $data = $request->validate([
+        'referrer_name' => 'required',
+        'referrer_phone' => 'required',
+        'student_name' => 'required',
+        'student_phone' => 'required',
+        'course_id' => 'required|exists:courses,id'
+    ]);
 
-        Referral::create($validated);
+    $course = Course::find($data['course_id']);
 
-        return back()->with('success', 'Referral submitted successfully!');
+    Mail::send('emails.referral', [
+        'data' => $data,
+        'course' => $course->name
+    ], function ($message) {
+        $message->to('info.siloamict@gmail.com')
+                ->subject('New Student Referral');
+    });
+
+    return back()->with('success','Referral submitted successfully!');
     }
 }

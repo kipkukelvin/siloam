@@ -28,7 +28,7 @@
         </div>
         <div class="container my-5 p-0">
             <div class="card border-0 p-4 text-start">
-                <h2 class="text-warning-emphasis">Our Philosophy</h2>
+                <h2 class="text-warning-emphasis text-center">Our Philosophy</h2>
                 <p class="fs-5">At Siloam Medical & Technical College, our philosophy is rooted in the belief that
                     education is a transformative
                     force that empowers individuals to reach their full potential and make meaningful contributions to
@@ -41,21 +41,7 @@
                     become
                     leaders in their fields.</p>
             </div>
-            <div class="card border-0 p-4 text-start">
-                <h2 class="text-warning-emphasis">Our Commitment</h2>
-                <p class="fs-5">We are committed to preparing competent, ethical, and professional nurses who provide
-                    holistic, patient-centered care to individuals, families, and communities—regardless of social,
-                    economic, or cultural status.
 
-                    <br><br>Our training emphasizes:
-                <ul>
-                    <li>Excellence in nursing education, research, and practice.</li>
-                    <li>Fostering a culture of compassion, integrity, and respect for human dignity.</li>
-                    <li>Promoting lifelong learning and professional development among our students and faculty.</li>
-                    <li>Engaging in community partnerships to improve health outcomes and address healthcare disparities.</li>
-                </ul>
-                </p>
-            </div>
             <div class="card border-0 p-4 text-center">
                 <h2 class="text-warning-emphasis">Campus Life</h2>
                 <p class="fs-5">Campus life offers students a vibrant and enriching experience beyond the classroom. It
@@ -137,6 +123,21 @@
                     </div>
 
                 </div>
+            </div>
+                        <div class="card border-0 p-4 text-start">
+                <h2 class="text-warning-emphasis text-center">Our Commitment</h2>
+                <p class="fs-5">We are committed to preparing competent, ethical, and professional nurses who provide
+                    holistic, patient-centered care to individuals, families, and communities—regardless of social,
+                    economic, or cultural status.
+
+                    <br><br>Our training emphasizes:
+                <ul>
+                    <li>Excellence in nursing education, research, and practice.</li>
+                    <li>Fostering a culture of compassion, integrity, and respect for human dignity.</li>
+                    <li>Promoting lifelong learning and professional development among our students and faculty.</li>
+                    <li>Engaging in community partnerships to improve health outcomes and address healthcare disparities.</li>
+                </ul>
+                </p>
             </div>
         </div>
     @endsection

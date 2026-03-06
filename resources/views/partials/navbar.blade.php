@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="bg text-white fixed-top py-1" style="z-index:1100;">
     <marquee id="intakeMarquee"behavior="scroll" direction="left">
-        Admissions Open for 2026 🎓 —
+        Admissions Open for 2026 🎓 --
         <a href="{{ route('academic.application') }}" class="btn btn-warning btn-sm mx-2"
             style="font-weight: bold; border-radius: 20px;">
             Apply Now
