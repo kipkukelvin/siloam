@@ -12,14 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('applications', function (Blueprint $table) {
-            $table->integer('course')->nullable()->change();
+            $table->string('course')->nullable()->change();
         });
     }
 
     public function down()
     {
         Schema::table('applications', function (Blueprint $table) {
-            $table->integer('course')->nullable(false)->change();
+            $table->string('course')->nullable(false)->change();
         });
     }
 };

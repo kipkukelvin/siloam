@@ -269,6 +269,16 @@
 .nav {
   font-family: PT Serif, sans-serif;
 }
+.dropcap::first-letter{
+    float:left;
+    font-size:4rem;
+    font-weight:700;
+    line-height:0.9;
+    margin-right:14px;
+    margin-top:4px;
+    color:#310681; /* Bootstrap primary */
+}
+
 
 .whatsapp-wrapper {
   position: fixed;
