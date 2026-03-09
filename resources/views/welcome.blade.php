@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('bt/css/bootstrap.min.css') }}">
 <div class="hero-wrapper position-relative">
     <!-- Carousel -->
     <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -36,10 +35,10 @@
     </div>
 
     <!-- Overlay -->
-    <div class="hero-overlay text-center">
-        <h2 class="hero-title">
+    <div class="hero-overlay text-center hf fw-bold">
+        <h3 class="hero-title">
             Welcome to Siloam Medical & Technical College
-        </h2>
+        </h3>
 
         <div class="hero-buttons text-center mt-3">
             <a href="{{ route('academic.programs') }}" class="btn btn-warning text-white btn-lg px-4">Apply Now</a>

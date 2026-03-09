@@ -2,14 +2,14 @@
 @section('title', 'Orthopedics-&-Trauma-Medicine')
 @section('content')
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative card mt-3 mb-3 text-white">
-    <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100" style="height:300px; object-fit:cover;"
+<div class="position-relative">
+    <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
         alt="">
-
-    <div class="position-absolute top-50 start-50 translate-middle 
-              fs-1 fw-bold text-black">
-        Orthopedics And Trauma Medicine
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
+    <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
+        <h1 class="hero-title fw-bold  text-uppercase text-center fst-italic"> Orthopedics <br> & <br> Trauma <br> Medicine</h1>
     </div>
+
 </div>
 <div class="container card-body my-4">
     <div class="row">

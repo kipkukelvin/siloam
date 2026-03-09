@@ -2,10 +2,10 @@
 <div class="container box mt-5 mb-5">
     <div class="row justify-content-center mb-5">
 
-        <h2 class="text-center text-primary-emphasis mb-3">Have anything to ask?</h2>
-        <h3 class="text-center text-muted mb-4">Email us below.</h3>
+        <h1 class="text-center text-primary-emphasis hf mb-3">Have anything to ask?</h1>
+        <h2 class="text-center hf text-muted mb-4">Email us below.</h2>
 
-        <div class="col-md-10 column">
+        <div class="col-md-10 hf column">
             <div class="card card-1 border-shadow">
                 <div class="card-body">
 

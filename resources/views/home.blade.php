@@ -5,10 +5,11 @@
   <div class="container-fluid img-fluid fixed w-100 h-100 pt-2">
     @include('welcome')
 </div>
+
+@include('partials.about-us')
 <section id="academic-section">
 @include('academic.academic')
 </section>
-@include('partials.about-us')
 @include('contact')
 @include('partials.gallery')
     <script

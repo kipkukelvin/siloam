@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-<div class="container-fluid px-0 bg p-4 mt-md-1 pt-1">
+<div class="container-fluid history-card px-0 p-4 mt-md-1 pt-1">
 
-    <h3 class="text-white text-center hf fw-bold my-3">
+    <h3 class="text-black text-center hf fw-bold my-3">
         Academics | Programmes
     </h3>
     <div class="container overflow-hidden">

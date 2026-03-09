@@ -3,25 +3,25 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 @section('title', 'Contact Us')
 @section('content')
-<div class="container-fluid bg text-light mt-2 y-2">
-    <h2 class="text-center fw-bold m-0">
+<div class="container-fluid bg text-light mt-2 py-3">
+    <h1 class="text-center hf fw-bold m-0">
         Contacts
-    </h2>
+    </h1>
 </div>
-<h2 class="text-center text-uppercase text-dark mt-5">Get in Touch</h2>
+<h2 class="text-center text-uppercase text-dark hf mt-5">Get in Touch</h2>
 <span style="display:block; width:350px; height:2px; background:#200680; margin:5px auto 0;"></span>
 
-    <div class="container py-3 mt-3 font">
+    <div class="container py-3 mt-2 font">
         <div class="text-center mb-5">
-            <p class=" fs-6">We are here to answer your questions and provide support. Reach out to us using the form below
+            <p class="hf fs-5">We are here to answer your questions and provide support. Reach out to us using the form below
                 or through our contact details.</p>
         </div>
         <!-- Contact Info -->
         <div class="table-responsive">
             <table class="table table-borderless text-center" style="table-layout: fixed; width: 100%;">
 
-                <th class="bg-warning text-white">Contacts</th>
-                <tr class="fw-bold font fst-italic">
+                <th class="bg-warning hf fs-5 text-white">Contacts</th>
+                <tr class="fw-bold hf fs-5 fst-italic">
                     <th>Main Office</th>
                     <th>Academics</th>
                     <th>Social Links</th>

@@ -8,9 +8,19 @@
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 20;
   letter-spacing: 2px;
-
+  font-family: "Times New Roman", Times, serif;
 }
-
+.history-card{
+    background:
+linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
+        url('../images/history.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    justify-content: center;
+    text-align: center;
+}
 .hero-wrapper {
   height: 75vh;
   position: relative;
@@ -244,7 +254,7 @@
 }
 
 .ab {
-  background-color: rgb(255, 255, 0);
+  background-color: rgb(226, 226, 11);
   border-color: #ffffff;
   color: #000000;
   transition: all 0.3s ease;
@@ -281,7 +291,7 @@
   line-height: 0.9;
   margin-right: 14px;
   margin-top: 4px;
-  color: #310681;
+  color: #6d6710;
   font-family: "Times New Roman", Times, serif;
   /* Bootstrap primary */
 }
