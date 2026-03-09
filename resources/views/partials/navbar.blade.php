@@ -6,7 +6,7 @@
             style="font-weight: bold; border-radius: 20px;">
             Apply Now
         </a>
-    -- Enroll Today -- Secure Your Future! 🚀
+        -- Enroll Today -- Secure Your Future! 🚀
     </marquee>
 </div>
 <div id="mainNavbar" class="container-fluid shadow-sm fixed-top font" style="top:8px; z-index:1000;">
@@ -49,7 +49,8 @@
                                     <ul class="list-unstyled">
                                         <li><a class="dropdown-item py-1" href="#">Health Sciences</a></li>
                                         <li><a class="dropdown-item py-1" href="#">ICT & Computer Studies</a></li>
-                                        <li><a class="dropdown-item text-muted py-1" href="#" >Technical Courses</a></li>
+                                        <li><a class="dropdown-item text-muted py-1" href="#">Technical
+                                                Courses</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-3">
@@ -63,7 +64,8 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item py-1" href="{{ asset('assets/Files/Fee Structures.pdf') }}" target="_blank"
+                                            <a class="dropdown-item py-1"
+                                                href="{{ asset('assets/Files/Fee Structures.pdf') }}" target="_blank"
                                                 rel="noopener noreferrer">
                                                 Fee Structures
                                             </a>
@@ -91,7 +93,8 @@
                             <ul class="list-unstyled ps-3 collapse" id="studentAffairsMenu">
                                 <li><a class="dropdown-item py-1" href="{{ route('school.dean') }}">Dean of
                                         Students</a></li>
-                                <li><a class="dropdown-item py-1" href="{{ route('school.career') }}">Career Liason</a></li>
+                                <li><a class="dropdown-item py-1" href="{{ route('school.career') }}">Career Liason</a>
+                                </li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item py-1" href="{{ route('partials.contacts') }}">Contact Us</a></li>
@@ -105,8 +108,9 @@
         <div class="nav-link text-right">
             <!-- <a href="{{ route('home') }}" class="text-decoration-none text-primary">Staff</a>
       <span class="text-dark mx-2">|</span>-->
-      <a href="{{ route('school.earn-referral') }}" class="text-decoration-none text-bold text-uppercase text-warning-emphasis">referral</a>
-    </div> 
+            <a href="{{ route('school.earn-referral') }}"
+                class="text-decoration-none text-bold text-uppercase text-warning-emphasis">referral</a>
+        </div>
 
     </header>
 </div>

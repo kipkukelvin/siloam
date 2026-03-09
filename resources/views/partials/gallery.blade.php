@@ -21,11 +21,11 @@
       </div>
 
       <div class="scroll-item">
-        <img src="{{ asset('assets/img/lab.jpg') }}" alt="Student Life 5">
+        <img src="{{ asset('assets/images/Nursing.jpg') }}" alt="Student Life 5">
         <div class="caption">Lab</div>
       </div>
       <div class="scroll-item">
-        <img src="{{ asset('assets/img/ST7.jpg') }}" alt="Student Life 6">
+        <img src="{{ asset('assets/images/Classroom.jpg') }}" alt="Student Life 6">
         <div class="caption">Classroom</div>
       </div>
       <div class="scroll-item">

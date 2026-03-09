@@ -1,15 +1,16 @@
  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
  <div class="text-monospace pt-3 font fade-up">
-     <h1 class=" text-center text-black mt-4 text-uppercase mb-2">
+     <h1 class=" text-center text-black mt-3 hf text-uppercase mb-2">
          About SMTC
      </h1>
      <span style="display:block; width:80px; height:2px; background:red; margin:5px auto 0;"></span>
-     <h4 class="text-secondary text-center fst-italic mb-4 mt-4">
+     <h4 class="text-secondary text-center fst-italic mb-4 mt-3">
          Shaping Minds, Transforming Lives.
      </h4>
-     <div class="container my-5 p-0">
+     <div class="container my-2 p-0">
          <div class="card border-0 p-4 text-start">
-             <h2 class="text-warning-emphasis text-start ps-4">Our History</h2>
+             <h2 class="text-warning-emphasis text-start hf ps-4
+             ">Our History</h2>
              <p class="fs-6 dropcap">Founded in 2024 in Kericho, Siloam Medical & Technical College was established with the
                  vision of nurturing individuals who are passionate about nursing and healthcare. The institution was
                  created in response to the growing demand for skilled healthcare professionals in Kenya and beyond.
@@ -31,7 +32,7 @@
          <!-- Vision -->
          <div class="col-md-6 text-center">
              <div class="card border-darkslate fade-up">
-                 <h5 class="mt-3 fs-2">Vision</h5>
+                 <h5 class="mt-3 fs-2 hf">Our Vision</h5>
                  <div class="card-body">
                      <p class="fs-6 mb-2">
                          To prepare world-class healthcare professionals committed to transforming healthcare locally
@@ -44,7 +45,7 @@
          <!-- Mission -->
          <div class="col-md-6 text-center text-red">
              <div class="card h-100 border-darkslate fade-up">
-                 <h5 class="mt-3 fs-2">Mission</h5>
+                 <h5 class="mt-3 fs-2 hf">Our Mission</h5>
                  <div class="card-body ">
                      <p class="fs-6 mb-2 text-start me-3">
                          To empower students with innovative healthcare education that develops expertise, compassion,
@@ -57,8 +58,8 @@
          <!-- Core Values -->
          <div class="row justify-content-center mt-5">
              <div class="col-md-8">
-                 <div class="card h-100 border-light bg text-white fade-up">
-                     <h5 class="mt-4 fs-2 text-center">Core Values</h5>
+                 <div class="card card-1 h-100 border-light bg text-white fade-up">
+                     <h5 class="mt-4 fs-2 text-center hf">Core Values</h5>
                      <div class="card-body text-start ps-4">
                          <ol class="">
                              <li><strong>Excellence</strong> - Striving for the highest standards in education,

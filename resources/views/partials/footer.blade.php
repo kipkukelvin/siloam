@@ -5,7 +5,9 @@
       <div class="col-md-4 mb-4">
         <h5 class="text-uppercase text-start mb-3 me-2 ms-5">Siloam MTC</h5>
         <p class="text-start text-white fs-6">
-          The objective of Siloam Medical & Technical College is to shape minds and change lives by providing quality education, fostering personal growth, and preparing students for success in both their careers and communities.
+          Siloam Medical & Technical College is committed to providing quality
+medical and technical education that equips students with practical
+skills for professional success and community service.
         </p>
       </div>
 
@@ -17,6 +19,7 @@
           <li><a href="{{ route('about') }}" class="text-white text-decoration-none">About Us</a></li>
           <li><a href="{{route('academic.faqs')}}" class="text-white text-decoration-none">FAQS</a></li>
           <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamcollegeofhscs@gmail.com" target="_blank" rel="noreferrer noopener" class="text-white text-decoration-none">Email Us</a></li>
+        </ul>
       </div>
 
       <!-- Contact Info -->
@@ -39,7 +42,7 @@
         </div>
     <hr class="border-light">
     <div class="text-center text-white me-2 ms-5 fs-6">
-      <p class="mb-2">Siloam Medical & Technical College &copy; {{ date('Y') }}. All Rights Reserved</p>
+      <p class="mb-2 hf">Siloam Medical & Technical College &copy; {{ date('Y') }}. All Rights Reserved</p>
     </div>
   </div>
 </footer>

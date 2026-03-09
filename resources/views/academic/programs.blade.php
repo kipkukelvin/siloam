@@ -1,18 +1,18 @@
 @extends('partials.layouts')
 @section('title', 'SMTC || Our-Programs')
 @section('content')
-<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
-<div class="position-relative bg-info mt-3 mb-1 text-white">
-    <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100 opacity-75"
-        style="height:auto; object-fit:cover;max-height: 300px;" alt="">
+    <div class="position-relative mt-3 mb-1 text-white">
+        <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100 opacity-75"
+            style="height:auto; object-fit:cover;max-height: 300px;" alt="">
 
-    <div
-        class="class-name position-absolute top-50 bg-dark bg-opacity-50 p-3 rounded start-40 ms-5 
+        <div
+            class="class-name position-absolute top-50 bg-dark bg-opacity-50 p-3 rounded start-40 ms-5 
               fs-1 fw-bold text-start text-light">
-       Our Courses
+            Our Courses
+        </div>
     </div>
-</div>
     <main class="container fw-normal mb-4 pt-3 fs-5 fst-italic">
         <div class="row g-4">
 
@@ -28,8 +28,7 @@
                         rehabilitation techniques.
                     </p>
                     <div class="mt-3 text-center mb-3 gap-2">
-                        <a href="{{ route('academic.application') }}"
-                            class="btn btn-outline-success btn-sm px-3">Enroll</a>
+                        <a href="{{ route('academic.application') }}" class="btn btn-outline-success btn-sm px-3">Enroll</a>
 
                         <a href="{{ route('academic.orthopedics') }}" class="btn btn-outline-primary btn-sm px-3">
                             Read More
@@ -41,18 +40,17 @@
             <!-- Nursing -->
             <div class="column col-md-4">
                 <div class="border  rounded shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/Nursing.jpg') }}" class="img-fluid rounded-top w-100">
+                    <img src="{{ asset('assets/images/Nursing_50.jpg') }}" class="img-fluid rounded-top w-100">
                     <h5 class="fw-bold p-2 mb-1 text-center">
-                        <a class="text-decoration-none text-dark">
                             Nursing (KRCHN)
                     </h5>
                     <p class="text-muted p-2 mb-0">
                         Provides essential nursing knowledge and practical skills including patient care, basic anatomy and
                         physiology, vital signs monitoring, infection control, first aid, and ethical practices in
                         healthcare.
+                    </p>
                     <div class="mt-3 text-center mb-3 gap-2">
-                        <a href="{{ route('academic.application') }}"
-                            class="btn btn-outline-success btn-sm px-3">Enroll</a>
+                        <a href="{{ route('academic.application') }}" class="btn btn-outline-success btn-sm px-3">Enroll</a>
 
                         <a href="{{ route('academic.nursing') }}" class="btn btn-outline-primary btn-sm px-3">
                             Read More
@@ -73,8 +71,7 @@
                         healthcare support.
                     </p>
                     <div class="mt-3 text-center mb-3 gap-2">
-                        <a href="{{ route('academic.application') }}"
-                            class="btn btn-outline-success btn-sm px-3">Enroll</a>
+                        <a href="{{ route('academic.application') }}" class="btn btn-outline-success btn-sm px-3">Enroll</a>
 
                         <a href="{{ route('academic.cna') }}" class="btn btn-outline-primary btn-sm px-3">
                             Read More
@@ -107,7 +104,7 @@
             <!-- Computer Packages -->
             <div class="column col-md-4">
                 <div class="border  rounded shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/Laptop.jpg') }}" class="img-fluid rounded-top w-100">
+                    <img src="{{ asset('assets/images/lapi.jpg') }}" class="img-fluid rounded-top w-100" loading="lazy">
                     <h5 class="fw-bold p-2 mb-1 text-center">
                         <a class="text-decoration-none text-dark">
                             Computer Packages

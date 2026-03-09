@@ -225,6 +225,10 @@
   font-family: 'PT Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
 }
 
+.hf {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .apply-btn {
   background-color: #198754;
   border-color: #198754;
@@ -269,14 +273,17 @@
 .nav {
   font-family: PT Serif, sans-serif;
 }
-.dropcap::first-letter{
-    float:left;
-    font-size:4rem;
-    font-weight:700;
-    line-height:0.9;
-    margin-right:14px;
-    margin-top:4px;
-    color:#310681; /* Bootstrap primary */
+
+.dropcap::first-letter {
+  float: left;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-right: 14px;
+  margin-top: 4px;
+  color: #310681;
+  font-family: "Times New Roman", Times, serif;
+  /* Bootstrap primary */
 }
 
 
@@ -372,7 +379,6 @@
 .bg-1 {
   background-color: #042fb1;
 }
-
 
 .social-icon {
   display: inline-flex;
@@ -542,71 +548,34 @@ body {
   border: 2px solid #483D8B !important;
   ;
 }
+
 .form-wrapper {
-    position: relative;
-    max-width: 600px;
-    width: 100%;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
 }
 
 .form-icon {
-    position: absolute;
-    top: -45px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #ffffff;
-    padding: 6px;
-    border-radius: 50%;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    z-index: 10; /* 🔥 IMPORTANT */
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  /* 🔥 IMPORTANT */
 }
 
 .form-icon img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 60%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 60%;
 }
 
 .card {
-    position: relative;
-    z-index: 1;
-}
-
-.a11y-toggle {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: none;
-    background: #0d6efd;
-    color: #fff;
-    font-size: 22px;
-    z-index: 9999;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-.a11y-panel {
-    position: fixed;
-    bottom: 85px;
-    right: 20px;
-    width: 230px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    display: none;
-    z-index: 9999;
-}
-
-/* Dark Mode */
-.dark-mode {
-    background-color: #121212 !important;
-    color: #ffffff !important;
-}
-
-/* High Contrast */
-.high-contrast {
-    filter: contrast(150%);
+  position: relative;
+  z-index: 1;
 }

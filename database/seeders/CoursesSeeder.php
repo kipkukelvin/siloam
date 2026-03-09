@@ -11,46 +11,44 @@ class CoursesSeeder extends Seeder
     /**
      * Run the database seeds.
      */
- public function run(): void
-{
- $courses = [
-    [
-        'name' => 'Orthopedic & Trauma Medicine',
-        'level' => 'Diploma',
-        'department' => 'Health Sciences',
-    ],
-    [
-        'name' => 'Perioperative Theatre Technology',
-        'level' => 'Diploma',
-        'department' => 'Health Sciences',
-    ],
-    [
-        'name' => 'Nursing',
-        'level' => 'Diploma',
-        'department' => 'Health Sciences',
-    ],
-    [
-        'name' => 'CNA',
-        'level' => 'Certificate',
-        'department' => 'Health Sciences',
-    ],
-    [
-        'name' => 'Computer Packages',
-        'level' => 'Certificate',
-        'department' => 'ICT',
-    ],
-];
+    public function run(): void
+    {
+        $courses = [
+            [
+                'name' => 'Orthopedic & Trauma Medicine',
+                'level' => 'Diploma',
+                'department' => 'Health Sciences',
+            ],
+            [
+                'name' => 'Perioperative Theatre Technology',
+                'level' => 'Diploma',
+                'department' => 'Health Sciences',
+            ],
+            [
+                'name' => 'Nursing (KRCHN)',
+                'level' => 'Diploma',
+                'department' => 'Health Sciences',
+            ],
+            [
+                'name' => 'Certified Nursing Assistan (CNA)',
+                'level' => 'Certificate',
+                'department' => 'Health Sciences',
+            ],
+            [
+                'name' => 'Computer Packages',
+                'level' => 'Certificate',
+                'department' => 'ICT',
+            ],
+        ];
 
-foreach ($courses as $course) {
-    DB::table('courses')->updateOrInsert(
-        ['name' => $course['name']],
-        [
-            'level' => $course['level'],
-            'department' => $course['department'],
-        ]
-    );
-}
-
-}
-
+        foreach ($courses as $course) {
+            DB::table('courses')->updateOrInsert(
+                ['name' => $course['name']],
+                [
+                    'level' => $course['level'],
+                    'department' => $course['department'],
+                ]
+            );
+        }
+    }
 }
