@@ -33,7 +33,7 @@
 <style> body { padding-top: 80px; /* space for fixed navbar */ } </style>
 <div class="whatsapp-wrapper">
 
-    <!-- Chat Popup -->
+    <!-- Chat -->
     <div class="whatsapp-popup" id="whatsappPopup">
         <div class="popup-header">
             Chat with us

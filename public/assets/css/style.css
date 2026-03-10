@@ -133,7 +133,8 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 .dropdown-menu {
   margin-top: 0;
   border-top: 2px solid #ff0909;
-  /* optional accent */
+  left: 0 !important;
+  right: 0 !important;
 }
 
 .dropdown-item:hover {
@@ -145,11 +146,6 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 /* Optional styling for columns */
 .dropdown-menu .col {
   min-width: 200px;
-}
-
-.dropdown-menu {
-  left: 0 !important;
-  right: 0 !important;
 }
 
 .list-group-item {
@@ -239,20 +235,6 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   font-family: "Times New Roman", Times, serif;
 }
 
-.apply-btn {
-  background-color: #198754;
-  border-color: #198754;
-  color: #ffffff;
-  transition: all 0.3s ease;
-}
-
-.apply-btn:hover {
-  background-color: #ffffff;
-  border-color: #198754;
-  color: #198754;
-  color: #d4af37
-}
-
 .ab {
   background-color: rgb(226, 226, 11);
   border-color: #ffffff;
@@ -295,25 +277,24 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   font-family: "Times New Roman", Times, serif;
   /* Bootstrap primary */
 }
-
-
+/* WhatsApp wrapper pinned to bottom-right */
 .whatsapp-wrapper {
   position: fixed;
   bottom: 20px;
-  left: 10px;
+  right: 0; /* far right */
   z-index: 9999;
   opacity: 0;
-  /* hidden initially */
   transform: translateY(20px);
   transition: all 0.4s ease;
 }
 
+/* Show wrapper */
 .whatsapp-wrapper.show {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Floating circle button */
+/* Floating circular button */
 .whatsapp-button {
   width: 60px;
   height: 60px;
@@ -328,27 +309,31 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Popup box */
+/* Popup box aligned right and above button */
 .whatsapp-popup {
+  position: fixed;
+  bottom: 90px;      /* slightly above button */
+  right: 0;           /* far right */
   width: 350px;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-  margin-bottom: 15px;
   overflow: hidden;
 
   opacity: 0;
   transform: translateY(20px);
-  pointer-events: none;
+  pointer-events: none;  /* prevent clicks when hidden */
   transition: 0.3s ease;
 }
 
+/* Active popup */
 .whatsapp-popup.active {
   opacity: 1;
   transform: translateY(0);
-  pointer-events: auto;
+  pointer-events: auto;  /* enable clicks when shown */
 }
 
+/* Popup header */
 .popup-header {
   background: #25D366;
   color: white;
@@ -358,11 +343,13 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   justify-content: space-between;
 }
 
+/* Popup body */
 .popup-body {
   padding: 15px;
   font-size: 14px;
 }
 
+/* Chat button inside popup */
 .chat-btn {
   display: block;
   background: #25D366;
@@ -378,9 +365,11 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   background: #20b358;
 }
 
+/* Close button */
 .close-btn {
   cursor: pointer;
 }
+
 
 .bg {
   background-color: #0b236b;
@@ -428,7 +417,7 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   z-index: 10;
-  /* 🔥 IMPORTANT */
+
 }
 
 .form-icon img {

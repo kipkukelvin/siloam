@@ -17,7 +17,7 @@
         </div>
 
     </div>
-    <div class="container-fluid bg w-100 text-dark mt-sm-1 py-4">
+    <div class="container-fluid bg w-100 text-dark py-4">
         <h1 class="text-center hf text-white fw-bold m-0">
             Admission
         </h1>
@@ -133,9 +133,9 @@
             </div>
         </div>
     </section>
-    <div class="container-fluid bg-light text-center py-5">
+    <div class="container-fluid my-4 text-center py-5">
 
-        <h4 class="fw-bold text-warning-emphasis">Start Your Journey</h4>
+        <h2 class="fw-bold text-warning-emphasis hf">Start Your Journey</h2>
         <span style="display:block; width:300px; height:2px; background:#2c054b; margin:5px auto 0;"></span>
         <p class="text-secondary mt-3 mb-3">
             Join our <strong>accredited programs</strong>, learn from
@@ -148,9 +148,10 @@
             Applications are now open for the upcoming intake. Secure your spot today and begin your journey toward a
             rewarding healthcare career. Limited seats available!
         </small>
-        <P class="mb-3">2026 Intake Ongoing</strong><br>Don't miss out!</P>
+        <P class="mb-2 mt-3"> <strong> 2026 Intake Ongoing</strong></P>
+        <p class="mt-2">Don't miss out!</p>
         <a href="{{ route('academic.application') }}"
-            class="btn ab btn-lg rounded-pill d-inline-flex align-items-center justify-content-center" style="gap: 8px;">
+            class="btn hf ab btn-lg rounded-pill d-inline-flex align-items-center justify-content-center" style="gap: 8px;">
             <i class="fas fa-paper-plane"></i>
             Apply Now
         </a>
