@@ -15,18 +15,18 @@
         <div class="carousel-inner">
 
             <div class="carousel-item">
-                <img src="{{ asset('assets/img/22.jpg') }}" class="d-block w-100 hero-image" alt="Slide 1">
+                <img src="{{ asset('assets/img/22.jpg') }}" class="d-block w-100 hero-image" alt="Slide 1" loading="lazy">
             </div>
 
             <div class="carousel-item">
-                <img src="{{ asset('assets/img/ADM.jpg') }}" class="d-block w-100 hero-image" alt="Slide 2">
+                <img src="{{ asset('assets/img/ADM.jpg') }}" class="d-block w-100 hero-image" alt="Slide 2" loading="lazy">
             </div>
 
             <div class="carousel-item active">
-                <img src="{{ asset('assets/images/bd.jpg') }}" class="d-block w-100 hero-image" alt="Slide 3">
+                <img src="{{ asset('assets/images/bd.jpg') }}" class="d-block w-100 hero-image" alt="Slide 3" loading="lazy">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/img/54.jpg') }}" class="d-block w-100 hero-image" alt="Slide 4">
+                <img src="{{ asset('assets/img/54.jpg') }}" class="d-block w-100 hero-image" alt="Slide 4" loading="lazy">
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('assets/img/ST6.jpg') }}" class="d-block w-100 hero-image" alt="Slide 5">

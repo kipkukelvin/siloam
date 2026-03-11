@@ -6,30 +6,30 @@
     <div class="scrolling-images">
 
       <div class="scroll-item">
-        <img src="{{ asset('assets/img/library.jpg') }}" alt="Student Life 1">
+        <img src="{{ asset('assets/img/library.jpg') }}" alt="Student Life 1" loading="lazy">
         <div class="caption">Library</div>
       </div>
 
       <div class="scroll-item">
-        <img src="{{ asset('assets/img/sports.jpg') }}" alt="Student Life 2">
+        <img src="{{ asset('assets/img/sports.jpg') }}" alt="Student Life 2" loading="lazy">
         <div class="caption">Sports</div>
       </div>
       
       <div class="scroll-item">
-        <img src="{{ asset('assets/img/outdoor.jpg') }}" alt="Student Life 4">
+        <img src="{{ asset('assets/img/outdoor.jpg') }}" alt="Student Life 4" loading="lazy">
         <div class="caption">Outdoor</div>
       </div>
 
       <div class="scroll-item">
-        <img src="{{ asset('assets/images/Nursing.jpg') }}" alt="Student Life 5">
+        <img src="{{ asset('assets/images/Nursing.jpg') }}" alt="Student Life 5" loading="lazy">
         <div class="caption">Lab</div>
       </div>
       <div class="scroll-item">
-        <img src="{{ asset('assets/images/Classroom.jpg') }}" alt="Student Life 6">
+        <img src="{{ asset('assets/images/Classroom.jpg') }}" alt="Student Life 6" loading="lazy">
         <div class="caption">Classroom</div>
       </div>
       <div class="scroll-item">
-        <img src="{{ asset('assets/img/ST3.jpg') }}" alt="Student Life 2">
+        <img src="{{ asset('assets/img/ST3.jpg') }}" alt="Student Life 2" loading="lazy">
         <div class="caption">Sports</div>
       </div>
 

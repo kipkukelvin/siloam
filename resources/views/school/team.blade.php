@@ -4,7 +4,7 @@
 @section('content')
     <div class="position-relative pt-4">
         <img src="{{ asset('assets/images/TEAM.avif') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
-            alt="">
+            alt="" loading="lazy">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
         <div class="position-absolute top-50 start-0 translate-middle-y ps-5 text-white">
             <h1 class="fw-bold text-uppercase">Our Team</h1>
@@ -22,7 +22,7 @@
 
             <div class="col-md-5">
                 <div class="card shadow-sm">
-                    <img src="{{ asset('assets/images/Cha.jpg') }}" class="card-img-top" alt="">
+                    <img src="{{ asset('assets/images/Cha.jpg') }}" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Hon. Frankline Bett</h4>
                         <p>Chairman</p>
@@ -32,7 +32,7 @@
 
             <div class="col-md-5">
                 <div class="card shadow-sm">
-                    <img src="{{ asset('assets/images/Dir.jpg') }}" class="card-img-top" alt="">
+                    <img src="{{ asset('assets/images/Dir.jpg') }}" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Miss Cheruto</h4>
                         <p>Director</p>
@@ -55,7 +55,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Prin.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Bernadette Sang</h4>
                         <p>Principal</p>
@@ -82,7 +82,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Reg.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt=""  loading="lazy">
                     <div class="card-body text-center">
                         <h4>Mr. Vincent</h4>
                         <p>Academic Registrar</p>
@@ -97,7 +97,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Dean.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Ruth Orina</h4>
                         <p>Dean of Students</p>
@@ -112,7 +112,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/rena.jpeg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt=""  loading="lazy">
                     <div class="card-body text-center">
                         <h4>Renalda Riaga</h4>
                         <p>Operations Manager</p>
@@ -127,7 +127,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/fai.jpeg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Faith Chepkorir</h4>
                         <p>Finance Officer</p>
@@ -153,7 +153,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Mercy.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Mercy Kitur</h4>
                         <p>School Chaplain & Tutor</p>
@@ -167,7 +167,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/PPT.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Purity Ngeno</h4>
                         <p>H.O.D Perioperative Theatre Technology</p>
@@ -181,7 +181,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Doreen.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Doreen Mageto</h4>
                         <p>H.O.D Orthopedics & Trauma Medicine</p>
@@ -196,7 +196,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Magdalene.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Magdaline Jerop</h4>
                         <p>H.O.D Certified Nursing Assistant</p>
@@ -212,7 +212,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Rency.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Rency Cherono</h4>
                         <p>Tutor</p>
@@ -227,7 +227,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Joan.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="">
+                        alt="" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Joan Cheptoo</h4>
                         <p>Librarian</p>
@@ -242,7 +242,7 @@
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="{{ asset('assets/images/Brenda.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt="siloam">
+                        alt="siloam" loading="lazy">
                     <div class="card-body text-center">
                         <h4>Brenda</h4>
                         <p>Tutor</p>

@@ -8,7 +8,7 @@
 
     <div class="position-relative">
         <img src="{{ asset('assets/images/ADM.jpeg') }}" class="img-fluid w-100" style="height:350px; object-fit:cover;"
-            alt="">
+            alt="" loading="lazy">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.80;"></div>
         <div class="position-absolute top-0 start-50 translate-middle-x text-white text-center w-100 pt-5">
             <a href="{{ route('academic.application') }}" class="btn ab px-4 py-2 rounded-pill">
@@ -31,7 +31,7 @@
             <div class="row text-center g-4">
                 <div class="col-md-4 d-none d-md-block">
                     <img src="{{ asset('assets/images/adm1.jpg') }}" class="img-fluid rounded shadow-sm"
-                        alt="Admission Process Image" style="object-fit: cover; max-height: 500px; width: 100%;">
+                        alt="Admission Process Image"  style="object-fit: cover; max-height: 500px; width: 100%;" loading="lazy">
                 </div>
                 <!-- Step 1: Choose Program -->
                 <div class="col-md-8">

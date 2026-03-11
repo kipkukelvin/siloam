@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative">
     <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
-        alt="">
+        alt="" loading="lazy">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
     <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
         <h1 class="hero-title fw-bold  text-uppercase text-center fst-italic">Our courses</h1>
@@ -17,7 +17,7 @@
             <!-- Orthopedics -->
             <div class="column col-md-4">
                 <div class="rounded border shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100 rounded-top">
+                    <img src="{{ asset('assets/images/orth.png') }}" class="img-fluid w-100 rounded-top" loading="lazy">
                     <h5 class="fw-bold text-center p-2 mb-1">
                         Orthopedics & Trauma Medicine
                     </h5>
@@ -38,7 +38,7 @@
             <!-- Nursing -->
             <div class="column col-md-4">
                 <div class="border  rounded shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/Nursing_50.jpg') }}" class="img-fluid rounded-top w-100">
+                    <img src="{{ asset('assets/images/Nursing_50.jpg') }}" class="img-fluid rounded-top w-100" loading="lazy">
                     <h5 class="fw-bold p-2 mb-1 text-center">
                             Nursing (KRCHN)
                     </h5>
@@ -60,7 +60,7 @@
             <!-- CNA -->
             <div class="column col-md-4">
                 <div class="border rounded shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/cna.jpg') }}" class="img-fluid w-80 rounded-top">
+                    <img src="{{ asset('assets/images/cna.jpg') }}" class="img-fluid w-80 rounded-top" loading="lazy">
                     <h5 class="fw-bold p-2 mb-1">
                         Certified Nurse Assistant
                     </h5>
@@ -81,7 +81,7 @@
             <!-- PPTT -->
             <div class="column col-md-4">
                 <div class="border rounded shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/PERIP.jpg') }}" class="img-fluid w-100 rounded-top ">
+                    <img src="{{ asset('assets/images/PERIP.jpg') }}" class="img-fluid w-100 rounded-top" loading="lazy">
                     <h5 class="fw-bold mb-1 text-center">
                         Perioperative Theatre Technology
                     </h5>

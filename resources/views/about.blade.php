@@ -56,15 +56,15 @@
             <div class="lightbox" data-mdb-lightbox-init>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="{{ asset('assets/images/offcampus.jpg') }}" alt=""
+                        <img src="{{ asset('assets/images/offcampus.jpg') }}" alt="" loading="lazy"
                             class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
-                        <img src="{{ asset('assets/images/campus.jpg') }}" alt=""
+                        <img src="{{ asset('assets/images/campus.jpg') }}" alt="" loading="lazy"
                             class="w-100 shadow-1-strong rounded" />
                     </div>
                     <div class="col-lg-6">
-                        <img src="{{ asset('assets/images/offcampus.jpg') }}" alt=""
+                        <img src="{{ asset('assets/images/offcampus.jpg') }}" alt="" loading="lazy"
                             class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
-                        <img src="{{ asset('assets/images/soccer.jpg') }}" alt=""
+                        <img src="{{ asset('assets/images/soccer.jpg') }}" alt="" loading="lazy"
                             class="w-100 shadow-1-strong rounded" />
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-md-6">
                     <img src="{{ asset('assets/img/GRADU.jpg') }}" class="w-100 h-80 mx-auto" style="object-fit: cover;"
-                        alt="">
+                        alt="" loading="lazy">
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
 
                 <div class="col-md-6">
                     <img src="{{ asset('assets/img/sss.jpg') }}" class="w-100 h-80" style="object-fit: cover;"
-                        alt="">
+                        alt="" loading="lazy">
                 </div>
 
                 <div class="col-md-6 p-4">

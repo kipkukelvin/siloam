@@ -108,8 +108,8 @@
 
         <!-- Right side: Staff | Student -->
         <div class="nav-link text-right">
-            <!-- <a href="{{ route('home') }}" class="text-decoration-none text-primary">Staff</a>
-      <span class="text-dark mx-2">|</span>-->
+            <!--<a href="{{ route('student.login') }}" class="text-decoration-none text-primary">Student</a>
+      <span class="text-dark mx-2">|</span> -->
             <a href="{{ route('school.earn-referral') }}"
                 class="text-decoration-none text-bold text-uppercase text-warning-emphasis">referral</a>
         </div>

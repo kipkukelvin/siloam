@@ -12,7 +12,7 @@
         <!-- Floating Logo -->
         <div class="form-icon">
             <img src="{{ asset('assets/images/ICON.jpg') }}" 
-                 alt="Siloam College Logo">
+                 alt="Siloam College Logo" loading="lazy">
         </div>
 
         <div class="card shadow-lg p-4 bg-light pt-5">

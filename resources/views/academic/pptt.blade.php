@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <div class="position-relative">
     <img src="{{ asset('assets/images/PERIP.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
-        alt="">
+        alt="" loading="lazy">
     <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
     <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
         <h1 class="hero-title fw-bold  text-uppercase text-center fst-italic">Perioperative <br> Theatre <br> Technology</h1>

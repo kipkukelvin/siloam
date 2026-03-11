@@ -4,7 +4,7 @@
 @section('content')
     <div class="position-relative">
         <img src="{{ asset('assets/images/Computer.jpg') }}" class="img-fluid w-100" style="height:350px; object-fit:cover;"
-            alt="">
+            alt="" loading="lazy">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
         <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
             <h1 class="hero-title fw-bold fst-italic text-uppercase">Computer <br> Packages</h1>
