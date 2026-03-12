@@ -2,8 +2,8 @@
 @section('title', 'Siloam-Team')
 
 @section('content')
-    <div class="position-relative pt-4">
-        <img src="{{ asset('assets/images/TEAM.avif') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
+    <div class="position-relative mt-auto">
+        <img src="{{ asset('assets/images/TEAM.avif') }}" class="img-fluid w-100" style="height:350; object-fit:cover;"
             alt="" loading="lazy">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
         <div class="position-absolute top-50 start-0 translate-middle-y ps-5 text-white">

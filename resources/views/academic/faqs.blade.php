@@ -22,7 +22,7 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faqOne"
                  data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    You can apply online through our <a href="{{ route('academic.application') }}">application portal</a>.
+                    You can apply online through our <a href="{{ route('academic.application') }}" class="text-decoration-none"><strong>application portal</strong></a>.
                     Fill out the form, upload required documents, and submit.
                 </div>
             </div>
@@ -39,7 +39,7 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo"
                  data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    Requirements vary by programme. Check the <a href="{{ route('academic.programs') }}">programmes page</a>
+                    Requirements vary by programme. Check the <a href="{{ route('academic.programs') }}" class="text-decoration-none"><strong>programmes page</strong></a>
                     for detailed requirements.
                 </div>
             </div>
@@ -72,7 +72,7 @@
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour"
                  data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
-                    You can reach us at <a href="{{ route('partials.contacts') }}"><strong> our contact page </strong>
+                    You can reach us at <a href="{{ route('partials.contacts') }}" class="text-decoration-none"><strong> our contact page </strong>
                         </a> or visit the admissions office on campus.
                 </div>
             </div>

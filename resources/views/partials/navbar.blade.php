@@ -13,7 +13,7 @@
 
     <div style="margin-top:30px;"></div>
     <header class="d-flex justify-content-between align-items-center text-danger py-3 bg-opacity-50">
-        <!-- Left side: Logo + Nav -->
+        <!-- Logo + Nav -->
         <div class="d-flex align-items-center">
             <a class="navbar-brand d-flex align-items-center text-decoration-none me-4" href="{{ route('home') }}">
                 <img src="{{ asset('assets/images/WEB.png') }}" class="img-fluid me-2" alt="Logo"
@@ -21,8 +21,7 @@
             </a>
 
             <ul class="nav nav-pills hf">
-                                <li class="nav-item text-uppercase"><a href="{{ route('home') }}"
-                        class="nav-link hf">Home</a></li>
+                <li class="nav-item text-uppercase"><a href="{{ route('home') }}" class="nav-link hf">Home</a></li>
 
                 <li class="nav-item text-uppercase"><a href="{{ route('school.admission') }}"
                         class="nav-link hf">Admission</a></li>
@@ -108,8 +107,8 @@
 
         <!-- Right side: Staff | Student -->
         <div class="nav-link text-right">
-            <!--<a href="{{ route('student.login') }}" class="text-decoration-none text-primary">Student</a>
-      <span class="text-dark mx-2">|</span> -->
+            <!-- <a href="{{ route('student.login') }}" class="text-decoration-none text-primary">Student</a>
+            <span class="text-dark mx-2">|</span> -->
             <a href="{{ route('school.earn-referral') }}"
                 class="text-decoration-none text-bold text-uppercase text-warning-emphasis">referral</a>
         </div>

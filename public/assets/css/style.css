@@ -10,17 +10,19 @@
   letter-spacing: 2px;
   font-family: "Times New Roman", Times, serif;
 }
-.history-card{
-    background:
-linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
-        url('../images/history.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 350px;
-    justify-content: center;
-    text-align: center;
+
+.history-card {
+  background:
+    linear-gradient(rgba(29, 56, 29, 0.6), rgba(34, 88, 34, 0.6)),
+    url('../images/history.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  justify-content: center;
+  text-align: center;
 }
+
 .hero-wrapper {
   height: 75vh;
   position: relative;
@@ -132,20 +134,15 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 /* Prevent flicker between hover areas */
 .dropdown-menu {
   margin-top: 0;
-  border-top: 2px solid #ff0909;
+  border-top: 2px solid #09022c;
   left: 0 !important;
   right: 0 !important;
+  border-radius: 0;
 }
 
 .dropdown-item:hover {
   color: red;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-/* Optional styling for columns */
-.dropdown-menu .col {
-  min-width: 200px;
+  background-color: #c0c0c0;
 }
 
 .list-group-item {
@@ -157,29 +154,6 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 .list-group-item {
   background-color: transparent;
   border: 0;
-}
-
-/* Hover effect for links */
-.list-link {
-  color: #000;
-  /* default text color */
-  text-decoration: none;
-  /* remove underline */
-  transition: all 0.2s ease;
-  /* smooth hover effect */
-  padding-left: 0;
-  /* start aligned */
-}
-
-.list-link:hover {
-  color: #0d6efd;
-  /* text color on hover */
-  background-color: #e9f5ff;
-  /* subtle light blue background */
-  padding-left: 6px;
-  /* slight shift for effect */
-  border-radius: 5px;
-  /* rounded corners on hover */
 }
 
 .column:hover {
@@ -236,7 +210,7 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 }
 
 .ab {
-  background-color: rgb(226, 226, 11);
+  background-color: goldenrod;
   border-color: #ffffff;
   color: #000000;
   transition: all 0.3s ease;
@@ -275,13 +249,14 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   margin-top: 4px;
   color: #6d6710;
   font-family: "Times New Roman", Times, serif;
-  /* Bootstrap primary */
 }
-/* WhatsApp wrapper pinned to bottom-right */
+
+/* WhatsApp wrapper */
 .whatsapp-wrapper {
   position: fixed;
-  bottom: 20px;
-  right: 0; /* far right */
+  bottom: 40px;
+  right: 20px;
+  /* far right */
   z-index: 9999;
   opacity: 0;
   transform: translateY(20px);
@@ -312,8 +287,10 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 /* Popup box aligned right and above button */
 .whatsapp-popup {
   position: fixed;
-  bottom: 90px;      /* slightly above button */
-  right: 0;           /* far right */
+  bottom: 0px;
+  /* slightly above button */
+  right: 0;
+  /* far right */
   width: 350px;
   background: #fff;
   border-radius: 12px;
@@ -322,7 +299,8 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 
   opacity: 0;
   transform: translateY(20px);
-  pointer-events: none;  /* prevent clicks when hidden */
+  pointer-events: none;
+  /* prevent clicks when hidden */
   transition: 0.3s ease;
 }
 
@@ -330,7 +308,8 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
 .whatsapp-popup.active {
   opacity: 1;
   transform: translateY(0);
-  pointer-events: auto;  /* enable clicks when shown */
+  pointer-events: auto;
+  /* enable clicks when shown */
 }
 
 /* Popup header */
@@ -359,6 +338,10 @@ linear-gradient(rgba(60, 90, 60, 0.6), rgba(104, 145, 104, 0.6)),
   border-radius: 6px;
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 6px;
+  margin-left: auto;
+  width: fit-content;
+  float: right;
 }
 
 .chat-btn:hover {
@@ -546,35 +529,4 @@ body {
 .border-darkslate {
   border: 2px solid #483D8B !important;
   ;
-}
-
-.form-wrapper {
-  position: relative;
-  max-width: 600px;
-  width: 100%;
-}
-
-.form-icon {
-  position: absolute;
-  top: -45px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #ffffff;
-  padding: 6px;
-  border-radius: 50%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-  /* 🔥 IMPORTANT */
-}
-
-.form-icon img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 60%;
-}
-
-.card {
-  position: relative;
-  z-index: 1;
 }

@@ -2,15 +2,15 @@
 @section('title', 'SMTC || Our-Programs')
 @section('content')
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="position-relative">
-    <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
-        alt="" loading="lazy">
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
-    <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
-        <h1 class="hero-title fw-bold  text-uppercase text-center fst-italic">Our courses</h1>
-    </div>
+    <div class="position-relative mt-auto">
+        <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
+            alt="" loading="lazy">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
+        <div class="position-absolute top-25 bottom-0 start-0 ps-5 translate-middle-y text-white">
+            <h1 class="hero-title fw-bold  text-uppercase text-center fst-italic">Our courses</h1>
+        </div>
 
-</div>
+    </div>
     <main class="container fw-normal mb-4 pt-3 fs-5 fst-italic">
         <div class="row g-4">
 
@@ -38,9 +38,10 @@
             <!-- Nursing -->
             <div class="column col-md-4">
                 <div class="border  rounded shadow-sm bg-white h-100">
-                    <img src="{{ asset('assets/images/Nursing_50.jpg') }}" class="img-fluid rounded-top w-100" loading="lazy">
+                    <img src="{{ asset('assets/images/Nursing_50.jpg') }}" class="img-fluid rounded-top w-100"
+                        loading="lazy">
                     <h5 class="fw-bold p-2 mb-1 text-center">
-                            Nursing (KRCHN)
+                        Nursing (KRCHN)
                     </h5>
                     <p class="text-muted p-2 mb-0">
                         Provides essential nursing knowledge and practical skills including patient care, basic anatomy and

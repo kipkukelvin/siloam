@@ -62,19 +62,19 @@
                      <h5 class="mt-4 fs-2 text-center hf">Core Values</h5>
                      <div class="card-body text-start ps-4">
                          <ol class="">
-                             <li><strong>Excellence</strong> - Striving for the highest standards in education,
+                             <li><strong class="hf fs-4">Excellence</strong> - Striving for the highest standards in education,
                                  practice, and patient care.</li>
-                             <li><strong>Compassion</strong> - Fostering empathy, kindness, and patient-centered care.
+                             <li><strong class="hf fs-4">Compassion</strong> - Fostering empathy, kindness, and patient-centered care.
                              </li>
-                             <li><strong>Integrity</strong> - Upholding honesty, ethics, and professionalism in all
+                             <li><strong class="hf fs-4">Integrity</strong> - Upholding honesty, ethics, and professionalism in all
                                  actions.</li>
-                             <li><strong>Innovation</strong> - Encouraging creativity and the adoption of new medical
+                             <li><strong class="hf fs-4">Innovation</strong> - Encouraging creativity and the adoption of new medical
                                  advancements.</li>
-                             <li><strong>Collaboration</strong> - Promoting teamwork and partnerships for improved
+                             <li><strong class="hf fs-4">Collaboration</strong> - Promoting teamwork and partnerships for improved
                                  healthcare outcomes.</li>
-                             <li><strong>Lifelong Learning</strong> - Committing to continuous education and
+                             <li><strong class="hf fs-4">Lifelong Learning</strong> - Committing to continuous education and
                                  professional development.</li>
-                             <li><strong>Service to Humanity</strong> - Dedicated to improving lives through quality
+                             <li><strong class="hf fs-4">Service to Humanity</strong> - Dedicated to improving lives through quality
                                  healthcare education and practice.</li>
                          </ol>
                      </div>
