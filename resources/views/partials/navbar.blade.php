@@ -37,7 +37,7 @@
 
                                 <!-- Programs column -->
                                 <div class="col-md-3">
-                                    <h6 class="fw-bold text-primary fs-5">Programs</h6>
+                                    <h6 class="fw-bold text-warning-emphasis fs-5">Programs</h6>
                                     <ul class="list-unstyled">
                                         <li><a class="dropdown-item py-1" href="{{ route('academic.programs') }}">Our
                                                 Courses</a></li>

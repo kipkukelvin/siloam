@@ -12,7 +12,7 @@
 
             <!-- Floating Logo -->
             <div class="form-icon">
-                <img src="{{ asset('assets/images/ICN.jpg') }}" alt="Siloam College Logo" loading="lazy">
+                <img src="{{ asset('assets/images/ICON2.png') }}" alt="Siloam College Logo" loading="lazy">
             </div>
 
             <div class="card shadow-lg p-4 bg-light pt-5">
@@ -59,7 +59,7 @@
                         <option value="">-- Select Course --</option>
                         @foreach ($courses as $course)
                             <option value="{{ $course->id }}">
-                                {{ $course->name }}
+                                {{ $course->name }} ({{ $course->level }})
                             </option>
                         @endforeach
                     </select>

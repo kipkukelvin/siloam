@@ -17,6 +17,7 @@
                  <ul class="list-unstyled text-start me-2 ms-5 text-white">
                      <li><a href="{{ route('home') }}" class="text-white text-decoration-none">Home</a></li>
                      <li><a href="{{ route('about') }}" class="text-white text-decoration-none">About Us</a></li>
+                     <li><a href="{{ route('partials.news-update') }}" class="text-white text-decoration-none">News & Updates</a></li>
                      <li><a href="{{ route('academic.faqs') }}" class="text-white text-decoration-none">FAQS</a></li>
                      <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamcollegeofhscs@gmail.com"
                              target="_blank" rel="noreferrer noopener" class="text-white text-decoration-none">Email

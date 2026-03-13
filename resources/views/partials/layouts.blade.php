@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Siloam Medical & Technical College" />
     <meta name="generator" content="Astro v5.13.2" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title', 'Page Title')</title>
   <link rel="icon" href="{{ asset('assets/images/ICON2.png') }}?v=5" type="image/png">
@@ -46,7 +47,7 @@
 
             <div class="text-center"><a href="https://wa.me/254701444333?text=Hello%20Siloam%20College,%20I%20would%20like%20more%20information."
                target="_blank"
-               class="chat-btn px-4 py-3     w-auto text-left d-inline-block rounded-pill fs-5">
+               class="chat-btn px-4 py-3 w-auto text-left d-inline-block rounded-pill fs-5">
                Start Chat<i class="fa fa-paper-plane ms-2"></i>
             </a></div>
         </div>

@@ -101,3 +101,22 @@ function toggleGrade() {
         kcseDiv.style.display = "none";
     }
 }
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById('likeBtn').addEventListener('click', function () {
+
+        fetch("{{ route('partials.like') }}", {
+            method: "POST",
+            headers: {
+                "X-CSRF-TOKEN": "{{ csrf_token() }}",
+                "Content-Type": "application/json"
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('likeCount').innerText = data.likes;
+        });
+
+    });
+
+});

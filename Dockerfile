@@ -32,6 +32,5 @@ CMD php artisan config:clear \
  && php artisan cache:clear \
  && php artisan config:cache \
  && php artisan migrate --force \
- && php artisan db:seed --force \
  && php artisan storage:link \
  && php -S 0.0.0.0:10000 -t public

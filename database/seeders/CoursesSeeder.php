@@ -31,7 +31,7 @@ class CoursesSeeder extends Seeder
                 'department' => 'Health Sciences',
             ],
             [
-                'name' => 'Certified Nursing Assistan (CNA)',
+                'name' => 'Certified Nursing Assistant (CNA)',
                 'level' => 'Certificate',
                 'department' => 'Health Sciences',
             ],
