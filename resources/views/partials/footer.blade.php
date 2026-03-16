@@ -17,7 +17,6 @@
                  <ul class="list-unstyled text-start me-2 ms-5 text-white">
                      <li><a href="{{ route('home') }}" class="text-white text-decoration-none">Home</a></li>
                      <li><a href="{{ route('about') }}" class="text-white text-decoration-none">About Us</a></li>
-                     <li><a href="{{ route('partials.news-update') }}" class="text-white text-decoration-none">News & Updates</a></li>
                      <li><a href="{{ route('academic.faqs') }}" class="text-white text-decoration-none">FAQS</a></li>
                      <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamcollegeofhscs@gmail.com"
                              target="_blank" rel="noreferrer noopener" class="text-white text-decoration-none">Email
@@ -34,6 +33,26 @@
                      <li><i class="fa fa-envelope me-2"></i> info.siloamcollegeofhscs@gmail.com</li>
                  </ul>
              </div>
+         </div>
+         <!-- College Information -->
+         <div class="col-md-4 mb-4">
+             <h5 class="text-uppercase mb-3 me-2 ms-3 hf fw-bold text-start">College Information</h5>
+             <ul class="list-unstyled text-start me-2 ms-5 text-white">
+                 <li><a href="#" class="text-white text-decoration-none">Our History</a></li>
+                 <li><a href="{{ route('partials.news-update') }}" class="text-white text-decoration-none">News &
+                         Updates</a></li>
+                 <li>
+                     <a href="https://maps.google.com/?q=-0.3599946353133343,35.2674250740756" target="_blank"
+                         class="text-white text-decoration-none">
+                         <i class="fa-solid fa-location-dot me-1"></i> Campus Map
+                     </a>
+
+                 </li>
+
+                 <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamcollegeofhscs@gmail.com"
+                         target="_blank" rel="noreferrer noopener" class="text-white text-decoration-none">Email
+                         Us</a></li>
+             </ul>
          </div>
          <!-- Social Media -->
          <div class="text-center mt-3">

@@ -2,7 +2,7 @@
 @section('title', 'SMTC || Our-Programs')
 @section('content')
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <div class="position-relative mt-auto">
+    <div class="position-relative mt-2">
         <img src="{{ asset('assets/images/ckr.jpg') }}" class="img-fluid w-100" style="height:400px; object-fit:cover;"
             alt="" loading="lazy">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.75;"></div>
@@ -63,7 +63,7 @@
                 <div class="border rounded shadow-sm bg-white h-100">
                     <img src="{{ asset('assets/images/cna.jpg') }}" class="img-fluid w-80 rounded-top" loading="lazy">
                     <h5 class="fw-bold p-2 mb-1">
-                        Certified Nurse Assistant
+                        Certified Nursing Assistant
                     </h5>
                     <p class="text-muted mb-0 p-2">
                         Trains students in essential patient care skills, basic nursing procedures, and professional

@@ -1,5 +1,5 @@
 @extends('partials.layouts')
-
+@section("title","News and Updates")
 @section('content')
     <section class="container my-5">
         <div class="row justify-content-center">
@@ -7,11 +7,11 @@
 
                 <div class="card border-0 shadow-sm p-4">
 
-                    <h2 class="text-center text-warning-emphasis hf mb-4">
+                    <h2 class="text-center hf mb-4">
                         Siloam Leadership Engages TVET Authority on Training Standards
                     </h2>
 
-                    <img src="{{ asset('assets/images/NEWS.jpg') }}" class="img-fluid rounded mb-4"
+                    <img src="{{ asset('assets/images/NEWS.jpg') }}" class="img-fluid w-100 rounded mb-4"
                         alt="TVET Authority Meeting">
 
                     <p>
@@ -25,8 +25,14 @@
                         During the meeting, the leaders discussed the important role of private-sector
                         investors in Technical and Vocational Education and Training (TVET).
                     </p>
+                <p>
+                    Hon. Bett, who runs a TVET institution in Kericho County, shared insights on private
+                    sector participation in skills development, particularly in medical-related training
+                    programs. He also highlighted the importance of maintaining high training standards
+                    to meet industry needs.
+                </p>
 
-                    <div class="text-center text-muted mb-4 small">
+                    <div class="text-left text-muted mb-4 small">
 
                         <span>March 12, 2025</span> |
 

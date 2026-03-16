@@ -1,6 +1,6 @@
 @extends('partials.layouts')
 
-@section('title', 'SMTC | Shaping Minds, Changing Lives')
+@section('title', 'Siloam Medical & Technical College _ Shaping Minds, Transforming Lives')
     <!-- Begin page content -->
   <div class="container-fluid img-fluid fixed w-100 h-100 pt-2">
     @include('welcome')

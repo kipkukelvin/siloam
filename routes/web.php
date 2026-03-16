@@ -37,9 +37,6 @@ Route::get('/partials/contacts', [SchoolController::class, 'contacts'])->name('p
 Route::get('/school/career', [SchoolController::class, 'career'])->name('school.career');
 Route::get('/partials/news-update', [SchoolController::class, 'news'])->name('partials.news-update');
 
-Route::get('/partials/news-update', [SchoolController::class, 'news'])
-    ->name('partials.news-update');
-
 Route::post('/partials/like', [SchoolController::class, 'like'])
     ->name('partials.like');
 Route::get('/school/earn-referral', [ReferralController::class, 'referral'])
