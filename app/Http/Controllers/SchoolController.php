@@ -20,7 +20,10 @@ class SchoolController extends Controller
     {
         return view('school.career');
     }
-
+    public function gallery()
+    {
+        return view('school.gallery');
+    }
     public function news()
     {
         $likes = DB::table('news')->where('id', 1)->value('likes');

@@ -1,13 +1,14 @@
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<div class="bg text-white fixed-top py-1" style="z-index:1100;">
-    <marquee id="intakeMarquee"behavior="scroll" direction="left">
-        Admissions Open for 2026 🎓 --
-        <a href="{{ route('academic.application') }}" class="btn hf btn-warning btn-sm mx-2"
-            style="font-weight: bold; border-radius: 20px;">
-            Apply Now
-        </a>
-        -- Enroll Today -- Secure Your Future! 🚀
-    </marquee>
+<div class="bg text-white fixed-top py-1 overflow-hidden" style="z-index:1100;">
+    <div class="marquee-container">
+        <div class="marquee-content">
+            Admissions Open for 2026 🎓 --
+            <a href="{{ route('academic.application') }}" class="btn btn-warning hf btn-sm rounded-pill mx-2">
+                Apply Now
+            </a>
+            -- Enroll Today -- Secure Your Future! 🚀
+        </div>
+    </div>
 </div>
 <div id="mainNavbar" class="container-fluid shadow-sm fixed-top hf" style="top:8px; z-index:1000;">
 

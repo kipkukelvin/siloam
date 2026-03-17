@@ -35,6 +35,7 @@ Route::get('/school/team', [HomeController::class, 'team'])->name('school.team')
 Route::get('/admin/payment', [HomeController::class, 'payment'])->name('admin.payment');
 Route::get('/partials/contacts', [SchoolController::class, 'contacts'])->name('partials.contacts');
 Route::get('/school/career', [SchoolController::class, 'career'])->name('school.career');
+Route::get('/school/gallery', [SchoolController::class, 'gallery'])->name('school.gallery');
 Route::get('/partials/news-update', [SchoolController::class, 'news'])->name('partials.news-update');
 
 Route::post('/partials/like', [SchoolController::class, 'like'])

@@ -41,6 +41,9 @@
                  <li><a href="#" class="text-white text-decoration-none">Our History</a></li>
                  <li><a href="{{ route('partials.news-update') }}" class="text-white text-decoration-none">News &
                          Updates</a></li>
+
+                 <li><a href="{{ route('school.gallery') }}" target="" rel="noreferrer noopener"
+                         class="text-white text-decoration-none">Gallery</a></li>
                  <li>
                      <a href="https://maps.google.com/?q=-0.3599946353133343,35.2674250740756" target="_blank"
                          class="text-white text-decoration-none">
@@ -49,9 +52,6 @@
 
                  </li>
 
-                 <li><a href="https://mail.google.com/mail/u/0/?fs=1&amp;tf=cm&amp;source=mailto&amp;to=info.siloamcollegeofhscs@gmail.com"
-                         target="_blank" rel="noreferrer noopener" class="text-white text-decoration-none">Email
-                         Us</a></li>
              </ul>
          </div>
          <!-- Social Media -->

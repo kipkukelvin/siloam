@@ -11,8 +11,8 @@
         <div class="form-wrapper">
 
             <!-- Floating Logo -->
-            <div class="form-icon">
-                <img src="{{ asset('assets/images/ICON2.png') }}" alt="Siloam College Logo" loading="lazy">
+            <div class="form-icon border-0 shadow-lg">
+                <img src="{{ asset('assets/images/ICON.png') }}" alt="Siloam College Logo" loading="lazy">
             </div>
 
             <div class="card shadow-lg p-4 bg-light pt-5">
@@ -35,7 +35,7 @@
                     </div>
                 @endif
 
-                <h2 class="mb-4 text-center fw-bold mt-3">Course Application Form</h2>
+                <h2 class="mb-4 text-center fw-bold mt-5">Course Application Form</h2>
 
                 <form action="{{ route('academic.application.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf

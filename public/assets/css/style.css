@@ -392,11 +392,11 @@
 
 .form-icon {
   position: absolute;
-  top: -45px;
+  top: -65px;
   left: 50%;
   transform: translateX(-50%);
   background: #ffffff;
-  padding: 6px;
+  padding: 1px;
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   z-index: 10;
@@ -404,10 +404,10 @@
 }
 
 .form-icon img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 60%;
+  width: 130px;
+  height: 130px;
+  object-fit: auto;
+  border-radius: 50%;
 }
 
 .card {
@@ -529,4 +529,34 @@ body {
 .border-darkslate {
   border: 2px solid #483D8B !important;
   ;
+}.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }

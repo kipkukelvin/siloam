@@ -19,15 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-  const marquee = document.getElementById('intakeMarquee');
+const marquee = document.querySelector('.marquee-content');
 
-    marquee.onmouseover = function() {
-        marquee.stop();
-    };
+marquee.addEventListener('mouseover', () => {
+    marquee.style.animationPlayState = 'paused';
+});
 
-    marquee.onmouseout = function() {
-        marquee.start();
-    };
+marquee.addEventListener('mouseout', () => {
+    marquee.style.animationPlayState = 'running';
+});
 document.querySelectorAll('.nav-item.dropdown').forEach((item) => {
   item.addEventListener('mouseenter', () => {
     const dropdownMenu = item.querySelector('.dropdown-menu');
