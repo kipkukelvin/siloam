@@ -1,0 +1,31 @@
+.navbar-nav {
+    display: flex;
+    flex-wrap: wrap;  /* Wrap if too many programs */
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    width: 25%; /* 4 items per row, adjust as needed */
+}
+
+.navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav .nav-item {
+        width: 100%; /* full width on mobile */
+    }
+}

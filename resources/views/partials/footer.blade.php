@@ -41,7 +41,6 @@
                  <li><a href="#" class="text-white text-decoration-none">Our History</a></li>
                  <li><a href="{{ route('partials.news-update') }}" class="text-white text-decoration-none">News &
                          Updates</a></li>
-
                  <li><a href="{{ route('school.gallery') }}" target="" rel="noreferrer noopener"
                          class="text-white text-decoration-none">Gallery</a></li>
                  <li>
@@ -58,11 +57,11 @@
          <div class="text-center mt-3">
              <a href="https://www.facebook.com/profile.php?id=61581782424060" target="_blank" rel="noopener noreferrer"
                  class="social-icon me-3"><i class="fab fa-facebook-f"></i></a>
-             <a href="https://www.tiktok.com/@siloamcollege" target="_blank" rel="noopener norreferrer"
+             <a href="https://www.tiktok.com/@siloamcollege" target="_blank" rel="noopener noreferrer"
                  class="social-icon me-3"><i class="fab fa-tiktok"></i></a>
              <a href="#" class="social-icon me-3"><i class="fab fa-twitter"></i></a>
              <a href="#" class="social-icon me-3"><i class="fab fa-instagram"></i></a>
-             <a href="#" class="social-icon me-3"><i class="fab fa-linkedin"></i></a>
+
          </div>
          <hr class="border-light">
          <div class="text-center text-white me-2 ms-5 fs-6">

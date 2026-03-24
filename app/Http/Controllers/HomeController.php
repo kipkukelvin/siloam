@@ -34,7 +34,7 @@ class HomeController extends Controller
     {
         return view('student.login');
     }
-     public function payment()
+    public function payment()
     {
         return view('admin.payment');
     }

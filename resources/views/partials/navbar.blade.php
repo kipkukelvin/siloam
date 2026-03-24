@@ -72,6 +72,13 @@
                                                 Fee Structures
                                             </a>
                                         </li>
+                                        <li>
+                                            <a class="dropdown-item py-1"
+                                                href="{{ route('pastpapers.exampastpapers') }}" target="_blank"
+                                                rel="noreferrer noopener" class="text-white text-decoration-none">Exam
+                                                Past Papers
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 

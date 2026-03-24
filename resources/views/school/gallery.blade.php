@@ -70,7 +70,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-md-3 col-sm-6 mb-2">
                     <div class="gallery-item position-relative overflow-hidden shadow-sm">
                         <a href="{{ asset('assets/Gallery/Classroom.jpg') }}" data-lightbox="gallery">
@@ -88,6 +88,17 @@
                             <img src="{{ asset('assets/images/soccer.jpg') }}" class="img-fluid w-100" loading="lazy">
                             <div class="gallery-caption">
                                 <span class="fw-bold">Sports</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-2">
+                    <div class="gallery-item position-relative overflow-hidden shadow-sm">
+                        <a href="{{ asset('assets/Gallery/Lectureroom.jpg') }}" data-lightbox="gallery">
+                            <img src="{{ asset('assets/Gallery/Lectureroom.jpg') }}" class="img-fluid w-100" loading="lazy">
+                            <div class="gallery-caption">
+                                <span class="fw-bold">Lecture Room</span>
                             </div>
                         </a>
                     </div>

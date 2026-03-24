@@ -41,8 +41,8 @@
                                 <i class="fa fa-search fa-2x text-primary mb-3"></i>
                                 <h5 class="fw-bold">1. Choose Your Program</h5>
                                 <p>
-                                    Select your preferred programme and ensure you meet the qualifications listed under Our
-                                    Programmes.
+                                    Select your preferred programme and ensure you meet the qualifications listed under <a href="{{ route('academic.programs') }}" class="text-decoration-none">Our
+                                    Programmes</a>.
                                 </p>
                             </div>
                         </div>
