@@ -162,10 +162,10 @@
                 <div class="card border-0 shadow-sm p-4">
 
                     <h2 class="text-center hf mb-4">
-                        Practical Clinical Training Session at Siloam College
+                        Siloam College Leadership Conducts Guided Tour of Campus Facilities
                     </h2>
 
-                    <img src="{{ asset('assets/Gallery/handson.jpg') }}" class="img-fluid rounded mb-3"
+                    <img src="{{ asset('assets/img/LEADERSHIP.jpg') }}" class="img-fluid rounded mb-3"
                         alt="Clinical Training Session">
 
                     <p class="text-muted small text-center">

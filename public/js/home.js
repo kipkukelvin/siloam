@@ -120,3 +120,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Prevent dropdown from closing when clicking inside
+    document.querySelectorAll('.dropdown-menu').forEach(function (menu) {
+        menu.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+    });
+
+});

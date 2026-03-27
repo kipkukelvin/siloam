@@ -54,7 +54,7 @@
                 <p>Welcome to Siloam College. How can we help you?</p>
 
                 <div class="text-center"><a
-                        href="https://wa.me/254701444333?text=Hello%20Siloam%20College,%20I%20would%20like%20more%20information."
+                        href="https://wa.me/254701444333?text=Call or Chat with us on 0701444333."
                         target="_blank" class="chat-btn px-4 py-3 w-auto text-left d-inline-block rounded-pill fs-5">
                         Start Chat<i class="fa fa-paper-plane ms-2"></i>
                     </a></div>
