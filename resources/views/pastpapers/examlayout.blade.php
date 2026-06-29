@@ -47,7 +47,7 @@
                     <a href="#" class="social-icon me-3"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="social-icon me-3"><i class="fab fa-instagram"></i></a>
                 </div>
-
+<div></div>
             </div>
     </footer>
 

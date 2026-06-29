@@ -13,7 +13,7 @@ class CoursesSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('courses')->truncate();
+        DB::table('courses')->delete();
         $courses = [
             [
                 'name' => 'Orthopedic & Trauma Medicine',

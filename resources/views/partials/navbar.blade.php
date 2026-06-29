@@ -18,12 +18,12 @@
             <img src="{{ asset('assets/images/WEB.png') }}" class="img-fluid me-2" style="height: 55px;">
         </a>
 
-        <!-- 🔥 Hamburger -->
+        <!-- Hamburger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- 🔥 COLLAPSE START -->
+        <!-- COLLAPSE START -->
         <div class="collapse navbar-collapse" id="mainMenu">
 
             <!-- LEFT SIDE -->

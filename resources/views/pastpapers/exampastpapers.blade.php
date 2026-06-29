@@ -15,11 +15,10 @@
                     <!-- Column 1 -->
                     <div class="col-md-6">
                         <div class="p-4 bg-white shadow-sm h-100">
-                            <h2 class="fw-bold text-success hf">% Success in Your Revision</h2>
+                            <h2 class="fw-bold text-success hf">% Success in Your <br> Revision</h2>
                             <p class="text-muted">
                                 Access past exams for all courses and improve your performance with real exam questions.
                             </p>
-                            <a href="#" class="btn btn-success btn-sm">Browse Papers</a>
                         </div>
                     </div>
 
@@ -37,7 +36,7 @@
                             </a>
                             <p>
                                 You can chat with us or call using the whatsapp contact at the bottom left corner of this
-                                window or send an email to info.siloamlibrary@gmail.com
+                                window or send an email to <a href="info.siloamexamination@gmail.com" class="text-decoration-none">info.siloamexamination@gmail.com</a>
                             </p>
                         </div>
                     </div>

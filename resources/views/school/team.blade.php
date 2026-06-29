@@ -77,22 +77,7 @@
 
     <div class="container my-5">
         <div class="row g-4 justify-content-center">
-
-            <!-- Registrar -->
-            <div class="col-md-4">
-                <div class="card shadow-sm">
-                    <img src="{{ asset('assets/images/Reg.jpg') }}" class="rounded-circle mx-auto mt-3 profile-img"
-                        alt=""  loading="lazy">
-                    <div class="card-body text-center">
-                        <h4>Mr. Vincent</h4>
-                        <p>Academic Registrar</p>
-                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#profileRegistrar">
-                            See Profile
-                        </button>
-                    </div>
-                </div>
-            </div>
-
+            
             <!-- Dean -->
             <div class="col-md-4">
                 <div class="card shadow-sm">

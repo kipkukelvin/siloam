@@ -38,10 +38,7 @@
                                 info.siloamcollegeofhscs@gmail.com</p>
                         </td>
                         <td>
-                            <p><strong>Registrar</strong></p>
-                            <p><i class="fas fa-envelope me-2 mb-2"></i><strong>Email</strong><br>
-                                info.siloamregistrar@gmail.com</p>
-                            <p></i><strong>Admission</strong></p>
+                            <p></i><strong>Admissions</strong></p>
                             <p><i class="fas fa-envelope me-2 mb-2"></i><strong>Email</strong><br>
                                 info.siloamcollegeofhscs@gmail.com</p>
                             <p><i class="fas fa-phone me-2 mb-2"></i><strong>Phone:</strong> <br>+254 701 444 333</p>
